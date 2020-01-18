@@ -27,17 +27,14 @@
     "icon": "bird-twitter",
     "contents": {
       "subtitle" : "Large beast, unaligned",
-      
       "Armor class" : "11",
       "Hit points" : "19 (3d10+3)",
       "Speed" : "50 ft.",
-      
       "dndstats" : "14|12|12|2|10|5",
-      
-
-      "Actions",
-      "Beak" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage."
-    },
+      "Actions": {
+        "Beak" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage."
+      }
+    }
     
   },
   {
@@ -47,17 +44,15 @@
     "icon": "monkey",
     "contents": {
       "subtitle" : "Small beast, unaligned",
-      
       "Armor class" : "12",
       "Hit points" : "3 (1d6)",
       "Speed" : "30 ft., climb 30 ft.",
-      
       "dndstats" : "8|14|11|4|12|6",
-      
       "Pack Tactics" : "The baboon has advantage on an attack roll against a creature if at least one of the baboon’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.",
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) piercing damage."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) piercing damage."
+      }
+    }
     
   },
   {
@@ -67,20 +62,16 @@
     "icon": "pawprint",
     "contents": {
       "subtitle" : "Tiny beast, unaligned",
-      
       "Armor class" : "10",
       "Hit points" : "3 (1d4+1)",
       "Speed" : "20 ft., burrow 5 ft.",
-      
       "dndstats" : "4|11|12|2|12|5",
-      
       "Senses" : "darkvision 30 ft.",
-      
       "Keen Smell" : "The badger has advantage on Wisdom (Perception) checks that rely on smell.",
-
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
+      }
+    }
     
   },
   {
@@ -90,21 +81,17 @@
     "icon": "bat",
     "contents": {
       "subtitle" : "Tiny beast, unaligned",
-      
       "Armor class" : "12",
       "Hit points" : "1 (1d4-1)",
       "Speed" : "5 ft., fly 30 ft.",
-      
       "dndstats" : "2|15|8|2|12|4",
-      
       "Senses" : "blindsight 60 ft.",
-      
       "Echolocation" : "The bat can’t use its blindsight while deafened.",
       "Keen Hearing" : "The bat has advantage on Wisdom (Perception) checks that rely on hearing.",
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.",
-
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. Hit: 1 piercing damage."
+      }
+    }
     
   },
   {
@@ -114,22 +101,19 @@
     "icon": "bear-head",
     "contents": {
       "subtitle" : "Medium beast, unaligned",
-      
       "Armor class" : "11 (natural armor)",
       "Hit points" : "19 (3d8+6)",
       "Speed" : "40 ft., climb 30 ft.",
-      
       "dndstats" : "15|10|14|2|12|7",
-      
       "Skills" : "Athletics +5, Perception +3",
-      
       "Keen Smell" : "The bear has advantage on Wisdom (Perception) checks that rely on smell.",
-      "Actions",
-      "Multiattack" : "The bear makes two attacks: one with its bite and one with its claws.",
-      "Bite" : "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
-      "Claws" : "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage.",
+      "Actions": {
+        "Multiattack" : "The bear makes two attacks: one with its bite and one with its claws.",
+        "Bite" : "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+        "Claws" : "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage."
 
-    },
+      }
+    }
     
   },
   {
@@ -139,21 +123,18 @@
     "icon": "hawk-emblem",
     "contents": {
       "subtitle" : "Small beast, unaligned",
-      
       "Armor class" : "12",
       "Hit points" : "7 (2d6)",
       "Speed" : "10 ft., fly 60 ft.",
-      
       "dndstats" : "6|14|10|3|14|5",
-      
       "Skills" : "Perception +4",
-      
       "Keen Sight" : "The hawk has advantage on Wisdom (Perception) checks that rely on sight.",
       "Pack Tactics" : "The hawk has advantage on an attack roll against a creature if at least one of the hawk’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.",
-      "Actions",
-      "Beak" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
+      "Actions": {
+        "Beak" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
 
-    },
+      }
+    }
     
   },
   {
@@ -163,19 +144,17 @@
     "icon": "boar-tusks",
     "contents": {
       "subtitle" : "Medium beast, unaligned",
-      
       "Armor class" : "11 (natural armor)",
       "Hit points" : "11 (2d8+2)",
       "Speed" : "40 ft.",
-      
       "dndstats" : "13|11|12|2|9|5",
-      
       "Charge" : "If the boar moves at least 20 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 3 (1d6) slashing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.",
       "Relentless (Recharges after a Short or Long Rest)" : "If the boar takes 7 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.",
-      "Actions",
-      "Tusk" : "Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage.",
+      "Actions": {
+        "Tusk" : "Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage."
 
-    },
+      }
+    }
     
   },
 
@@ -186,22 +165,19 @@
     "icon": "bear-head",
     "contents": {
       "subtitle" : "Large beast, unaligned",
-      
       "Armor class" : "11 (natural armor)",
       "Hit points" : "34 (4d10+12)",
       "Speed" : "40 ft., climb 30 ft.",
-      
       "dndstats" : "19|10|16|2|13|7",
-      
       "Skills" : "Perception +3",
-      
       "Keen Smell" : "The bear has advantage on Wisdom (Perception) checks that rely on smell.",
 
-      "Actions",
-      "Multiattack" : "The bear makes two attacks: one with its bite and one with its claws.",
-      "Bite" : "Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.",
-      "Claws" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage."
-    },
+      "Actions": {
+        "Multiattack" : "The bear makes two attacks: one with its bite and one with its claws.",
+        "Bite" : "Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.",
+        "Claws" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage."
+      }
+    }
     
   },
   {
@@ -211,17 +187,14 @@
     "icon": "camel-head",
     "contents": {
       "subtitle" : "Large beast, unaligned",
-      
       "Armor class" : "9",
       "Hit points" : "15 (2d10+4)",
       "Speed" : "50 ft.",
-      
       "dndstats" : "16|8|14|2|8|5",
-      
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage."
+      }
+    }
     
   },
   {
@@ -231,21 +204,17 @@
     "icon": "white-cat",
     "contents": {
       "subtitle" : "Tiny beast, unaligned",
-      
       "Armor class" : "11 (natural armor)",
       "Hit points" : "2 (1d4)",
       "Speed" : "20 ft., swim 20 ft.",
-      
       "dndstats" : "2|11|10|1|8|2",
-      
       "Skills" : "Stealth +2",
       "Senses" : "blindsight 30 ft.",
-      
       "Amphibious" : "The crab can breathe air and water.",
-      
-      "Actions",
-      "Claw" : "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage."
-    },
+      "Actions": {
+        "Claw" : "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage."
+      }
+    }
     
   },
   {
@@ -255,24 +224,16 @@
     "icon": "snake",
     "contents": {
       "subtitle" : "Large beast, unaligned",
-      
       "Armor class" : "12",
       "Hit points" : "13 (2d10+2)",
       "Speed" : "30 ft., swim 30 ft.",
-      
       "dndstats" : "15|14|12|1|10|3",
-      
       "Senses" : "blindsight 10 ft.",
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage.",
-      "Constrict" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) bludgeoning damage, .and the target is grappled (escape DC 14). Until this grapple ends, the creature is restrained, and the snake can’t constrict another target.",
-      
-      "section"
-    },
-
-    "tags": {},
-    "title_size": "12"
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage.",
+        "Constrict" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) bludgeoning damage, .and the target is grappled (escape DC 14). Until this grapple ends, the creature is restrained, and the snake can’t constrict another target."
+      }
+    }
   },
   {
     "count": "1",
@@ -281,18 +242,15 @@
     "icon": "cow",
     "contents": {
       "subtitle" : "Large beast, unaligned",
-      
       "Armor class" : "10",
       "Hit points" : "15 (2d10+4)",
       "Speed" : "30 ft.",
-      
       "dndstats" : "18|10|14|2|10|4",
-      
       "Charge" : "If the cow moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 7 (2d6) piercing damage.",
-      
-      "Actions",
-      "Gore" : "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage."
-    },
+      "Actions": {
+        "Gore" : "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage."
+      }
+    }
     
   },
   {
@@ -302,21 +260,17 @@
     "icon": "crab",
     "contents": {
       "subtitle" : "Tiny beast, unaligned",
-      
       "Armor class" : "11 (natural armor)",
       "Hit points" : "2 (1d4)",
       "Speed" : "20 ft., swim 20 ft.",
-      
       "dndstats" : "2|11|10|1|8|2",
-      
       "Skills" : "Stealth +2",
       "Senses" : "blindsight 30 ft.",
-      
       "Amphibious" : "The crab can breathe air and water.",
-      
-      "Actions",
-      "Claw" : "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage."
-    },
+      "Actions": {
+        "Claw" : "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage."
+      }
+    }
     
   },
   {
@@ -326,20 +280,16 @@
     "icon": "croc-jaws",
     "contents": {
       "subtitle" : "Large beast, unaligned",
-      
       "Armor class" : "12 (natural armor)",
       "Hit points" : "19 (3d10+3)",
       "Speed" : "20 ft., swim 20 ft.",
-      
       "dndstats" : "15|10|13|2|10|5",
-      
       "Skills" : "Stealth +2",
-      
       "Hold Breath" : "The crocodile can hold its breath for 15 minutes.",
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the crocodile can’t bite another target."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the crocodile can’t bite another target."
+      }
+    }
     
   },
   {
@@ -349,17 +299,14 @@
     "icon": "hoof",
     "contents": {
       "subtitle" : "Medium beast, unaligned",
-      
       "Armor class" : "13",
       "Hit points" : "4 (1d8)",
       "Speed" : "50 ft.",
-      
       "dndstats" : "11|16|11|2|14|5",
-      
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage."
+      }
+    }
     
   },
   {
@@ -369,23 +316,17 @@
     "icon": "wolf-howl",
     "contents": {
       "subtitle" : "Large beast, unaligned",
-      
       "Armor class" : "14 (natural armor)",
       "Hit points" : "37 (5d10+10)",
       "Speed" : "50 ft.",
-      
       "dndstats" : "17|15|15|3|12|7",
-      
       "Skills" : "Perception +3, Stealth +4",
-      
       "Keen Hearing and Smell" : "The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
-      
-      "section",
       "Pack Tactics" : "The wolf has advantage on an attack roll against a creature if at least one of the wolf’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.",
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
+      }
+    }
     
   },
   {
@@ -395,17 +336,14 @@
     "icon": "horse-head",
     "contents": {
       "subtitle" : "Large beast, unaligned",
-      
       "Armor class" : "10",
       "Hit points" : "19 (3d10+3)",
       "Speed" : "40 ft.",
-      
       "dndstats" : "14|10|15|2|10|5",
-      
-      
-      "Actions",
-      "Hooves" : "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) bludgeoning damage."
-    },
+      "Actions": {
+        "Hooves" : "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) bludgeoning damage."
+      }
+    }
     
   },
   {
@@ -415,20 +353,16 @@
     "icon": "eagle-emblem",
     "contents": {
       "subtitle" : "Small beast, unaligned",
-      
       "Armor class" : "12",
       "Hit points" : "3 (1d6)",
       "Speed" : "10 ft., fly 60 ft.",
-      
       "dndstats" : "6|15|10|2|14|7",
-      
       "Skills" : "Perception +4",
-      
       "Keen Sight" : "The eagle has advantage on Wisdom (Perception) checks that rely on sight.",
-      
-      "Actions",
-      "Talons" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage."
-    },
+      "Actions": {
+        "Talons" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage."
+      }
+    }
     
   },
   {
@@ -438,19 +372,16 @@
     "icon": "hoof",
     "contents": {
       "subtitle" : "Large beast, unaligned",
-      
       "Armor class" : "10",
       "Hit points" : "13 (2d10+2)",
       "Speed" : "50 ft.",
-      
       "dndstats" : "16|10|12|2|10|6",
-      
       "Charge" : "If the elk moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.",
-      
-      "Actions",
-      "Ram" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.",
-      "Hooves" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one prone creature. Hit: 8 (2d4 + 3) bludgeoning damage."
-    },
+      "Actions": {
+        "Ram" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.",
+        "Hooves" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one prone creature. Hit: 8 (2d4 + 3) bludgeoning damage."
+      }
+    }
     
   },
   {
@@ -460,20 +391,16 @@
     "icon": "snake",
     "contents": {
       "subtitle" : "Tiny beast, unaligned",
-      
       "Armor class" : "14",
       "Hit points" : "5 (2d4)",
       "Speed" : "30 ft., fly 60 ft., swim 30 ft.",
-      
       "dndstats" : "4|18|11|2|12|5",
-      
       "Senses" : "blindsight 10 ft.",
-      
       "Flyby" : "The snake doesn’t provoke opportunity attacks when it flies out of an enemy’s reach.",
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 7 (3d4) poison damage."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 7 (3d4) poison damage."
+      }
+    }
     
   },
   {
@@ -483,20 +410,15 @@
     "icon": "frog",
     "contents": {
       "subtitle" : "Tiny beast, unaligned",
-      
       "Armor class" : "11 (natural armor)",
       "Hit points" : "1 (1d4-1)",
       "Speed" : "20 ft., swim 20 ft.",
-      
       "dndstats" : "1|13|8|1|8|3",
-      
       "Skills" : "Perception +1, Stealth +3",
       "Senses" : "darkvision 30 ft.",
-      
       "Amphibious" : "The frog can breathe air and water.",
       "Standing Leap" : "The frog’s long jump is up to 10 ft. and its high jump is up to 5 ft., with or without a running start."
-    },
-    
+    }
   },
   {
     "count": "1",
@@ -505,22 +427,18 @@
     "icon": "",
     "contents": {
       "subtitle" : "Medium beast, unaligned",
-      
       "Armor class" : "10",
       "Hit points" : "13 (2d8+4)",
       "Speed" : "30 ft., burrow 10 ft.",
-      
       "dndstats" : "13|10|15|2|12|5",
-      
       "Senses" : "darkvision 30 ft.",
-      
       "Keen Smell" : "The badger has advantage on Wisdom (Perception) checks that rely on smell.",
-      
-      "Actions",
-      "Multiattack" : "The badger makes two attacks: one with its bite and one with its claws.",
-      "Bite" : "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.",
-      "Claws" : "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) slashing damage."
-    },
+      "Actions": {
+        "Multiattack" : "The badger makes two attacks: one with its bite and one with its claws.",
+        "Bite" : "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.",
+        "Claws" : "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) slashing damage."
+      }
+    }
     
   },
   {
@@ -530,21 +448,17 @@
     "icon": "bat",
     "contents": {
       "subtitle" : "Large beast, unaligned",
-      
       "Armor class" : "13",
       "Hit points" : "22 (4d10)",
       "Speed" : "10 ft., fly 60 ft.",
-      
       "dndstats" : "15|16|11|2|12|6",
-      
       "Senses" : "blindsight 60 ft.",
-      
       "Echolocation" : "The bat can’t use its blindsight while deafened.",
       "Keen Hearing" : "The bat has advantage on Wisdom (Perception) checks that rely on hearing.",
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage."
+      }
+    }
     
   },
   {
@@ -554,18 +468,15 @@
     "icon": "centipede",
     "contents": {
       "subtitle" : "Small beast, unaligned",
-      
       "Armor class" : "13 (natural armor)",
       "Hit points" : "4 (1d6+1)",
       "Speed" : "30 ft., climb 30 ft.",
-      
       "dndstats" : "5|14|12|1|7|3",
-      
       "Senses" : "blindsight 30 ft.",
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or take 10 (3d6) poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or take 10 (3d6) poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+      }
+    }
     
   },
   {
@@ -575,21 +486,17 @@
     "icon": "crab",
     "contents": {
       "subtitle" : "Medium beast, unaligned",
-      
       "Armor class" : "15 (natural armor)",
       "Hit points" : "13 (3d8)",
       "Speed" : "30 ft., swim 30 ft.",
-      
       "dndstats" : "13|15|11|1|9|3",
-      
       "Skills" : "Stealth +4",
       "Senses" : "blindsight 30 ft.",
-      
       "Amphibious" : "The crab can breathe air and water.",
-      
-      "Actions",
-      "Claw" : "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage, and the target is grappled (escape DC 11). The crab has two claws, each of which can grapple only one target."
-    },
+      "Actions": {
+        "Claw" : "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage, and the target is grappled (escape DC 11). The crab has two claws, each of which can grapple only one target."
+      }
+    }
     
   },
   {
@@ -599,22 +506,18 @@
     "icon": "eagle-emblem",
     "contents": {
       "subtitle" : "Large beast, neutral good",
-      
       "Armor class" : "13",
       "Hit points" : "26 (4d10+4)",
       "Speed" : "10 ft., fly 80 ft.",
-      
       "dndstats" : "16|17|13|8|14|10",
-      
       "Skills" : "Perception +4",
-      
       "Keen Sight" : "The eagle has advantage on Wisdom (Perception) checks that rely on sight.",
-      
-      "Actions",
-      "Multiattack" : "The eagle makes two attacks: one with its beak and one with its talons.",
-      "Beak" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
-      "Talons" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage."
-    },
+      "Actions": {
+        "Multiattack" : "The eagle makes two attacks: one with its beak and one with its talons.",
+        "Beak" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+        "Talons" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage."
+      }
+    }
     
   },
   {
@@ -624,20 +527,16 @@
     "icon": "spotted-bug",
     "contents": {
       "subtitle" : "Small beast, unaligned",
-      
       "Armor class" : "13",
       "Hit points" : "4 (1d6+1)",
       "Speed" : "30 ft.",
-      
       "dndstats" : "8|10|12|1|7|3",
-      
       "Senses" : "blindsight 30 ft.",
-      
       "Illumination" : "The beetle sheds bright light in a 10-foot radius and dim light for an additional 10 ft..",
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6 - 1) slashing damage."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6 - 1) slashing damage."
+      }
+    }
     
   },
   {
@@ -647,23 +546,19 @@
     "icon": "frog",
     "contents": {
       "subtitle" : "Medium beast, unaligned",
-      
       "Armor class" : "11",
       "Hit points" : "18 (4d8)",
       "Speed" : "30 ft., swim 30 ft.",
-      
       "dndstats" : "12|13|11|2|10|3",
-      
       "Skills" : "Perception +2, Stealth +3",
       "Senses" : "darkvision 30 ft.",
-      
       "Amphibious" : "The frog can breathe air and water.",
       "Standing Leap" : "The frog’s long jump is up to 20 ft. and its high jump is up to 10 ft., with or without a running start.",
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage, and the target is grappled (escape DC 11). Until this grapple ends, the target is restrained, and the frog can’t bite another target.",
-      "Swallow" : "The frog makes one bite attack against a Small or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the frog, and it takes 5 (2d4) acid damage at the start of each of the frog’s turns. The frog can have only one target swallowed at a time. If the frog dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 ft. of movement, exiting prone."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage, and the target is grappled (escape DC 11). Until this grapple ends, the target is restrained, and the frog can’t bite another target.",
+        "Swallow" : "The frog makes one bite attack against a Small or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the frog, and it takes 5 (2d4) acid damage at the start of each of the frog’s turns. The frog can have only one target swallowed at a time. If the frog dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 ft. of movement, exiting prone."
+      }
+    }
     
   },
   {
@@ -673,19 +568,16 @@
     "icon": "goat",
     "contents": {
       "subtitle" : "Large beast, unaligned",
-      
       "Armor class" : "11 (natural armor)",
       "Hit points" : "19 (3d10+3)",
       "Speed" : "40 ft.",
-      
       "dndstats" : "17|11|12|3|12|6",
-      
       "Charge" : " If the goat moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 5 (2d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.",
       "Sure-Footed" : "The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.",
-      
-      "Actions",
-      "Ram" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage."
-    },
+      "Actions": {
+        "Ram" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage."
+      }
+    }
     
   },
   {
@@ -695,20 +587,16 @@
     "icon": "wolf-head",
     "contents": {
       "subtitle" : "Large beast, unaligned",
-      
       "Armor class" : "12",
       "Hit points" : "45 (6d10+12)",
       "Speed" : "50 ft.",
-      
       "dndstats" : "16|14|14|2|12|7",
-      
       "Skills" : "Perception +3",
-      
       "Rampage" : "When the hyena reduces a creature to 0 hit points with a melee attack on its turn, the hyena can take a bonus action to move up to half its speed and make a bite attack.",
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage."
+      }
+    }
     
   },
   {
@@ -718,19 +606,16 @@
     "icon": "gecko",
     "contents": {
       "subtitle" : "Large beast, unaligned",
-      
       "Armor class" : "12 (natural armor)",
       "Hit points" : "19 (3d10+3)",
       "Speed" : "30 ft., climb 30 ft.",
-      
       "dndstats" : "15|12|13|2|10|5",
-      
       "Hold Breath" : "The lizard can hold its breath for 15 minutes. (A lizard that has this trait also has a swimming speed of 30 feet.)",
       "Spider Climb" : "The lizard can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+      }
+    }
     
   },
   {
@@ -740,24 +625,20 @@
     "icon": "octopus",
     "contents": {
       "subtitle" : "Large beast, unaligned",
-      
       "Armor class" : "11",
       "Hit points" : "52 (8d10+8)",
       "Speed" : "10 ft., swim 60 ft.",
-      
       "dndstats" : "17|13|13|4|10|4",
-      
       "Skills" : "Perception +4, Stealth +5",
       "Senses" : "darkvision 60 ft.",
-      
       "Hold Breath" : "While out of water, the octopus can hold its breath for 1 hour.",
       "Underwater Camouflage" : "The octopus has advantage on Dexterity (Stealth) checks made while underwater.",
       "Water Breathing" : "The octopus can breathe only underwater.",
-      
-      "Actions",
-      "Tentacles" : "Melee Weapon Attack: +5 to hit, reach 15 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage. If the target is a creature, it is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the octopus can’t use its tentacles on another target.",
-      "Ink Cloud (Recharges after a Short or Long Rest)" : "A 20-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action."
-    },
+      "Actions": {
+        "Tentacles" : "Melee Weapon Attack: +5 to hit, reach 15 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage. If the target is a creature, it is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the octopus can’t use its tentacles on another target.",
+        "Ink Cloud (Recharges after a Short or Long Rest)" : "A 20-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action."
+      }
+    }
     
   },
   {
@@ -767,22 +648,18 @@
     "icon": "owl",
     "contents": {
       "subtitle" : "Large beast, neutral",
-      
       "Armor class" : "12",
       "Hit points" : "19 (3d10+3)",
       "Speed" : "5 ft., fly 60 ft.",
-      
       "dndstats" : "13|15|12|8|13|10",
-      
       "Skills" : "Perception +5, Stealth +4",
       "Senses" : "darkvision 120 ft.",
-      
       "Flyby" : "The owl doesn’t provoke opportunity attacks when it flies out of an enemy’s reach.",
       "Keen Hearing and Sight" : "The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight.",
-      
-      "Actions",
-      "Talons" : "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8 (2d6 + 1) slashing damage."
-    },
+      "Actions": {
+        "Talons" : "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8 (2d6 + 1) slashing damage."
+      }
+    }
     
   },
   {
@@ -792,19 +669,16 @@
     "icon": "snake",
     "contents": {
       "subtitle" : "Medium beast, unaligned",
-      
       "Armor class" : "14",
       "Hit points" : "11 (2d8+2)",
       "Speed" : "30 ft., swim 30 ft.",
-      
       "dndstats" : "10|18|13|2|10|3",
-      
       "Skills" : "Perception +2",
       "Senses" : "blindsight 10 ft.",
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 6 (1d4 + 4) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 6 (1d4 + 4) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one."
+      }
+    }
     
   },
   {
@@ -814,21 +688,17 @@
     "icon": "seated-mouse",
     "contents": {
       "subtitle" : "Small beast, unaligned",
-      
       "Armor class" : "12",
       "Hit points" : "7 (2d6)",
       "Speed" : "30 ft.",
-      
       "dndstats" : "16|8|14|2|8|5",
-      
       "Senses" : "darkvision 60 ft.",
-      
       "Keen Smell" : "The rat has advantage on Wisdom (Perception) checks that rely on smell.",
       "Pack Tactics" : "The rat has advantage on an attack roll against a creature if at least one of the rat’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.",
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+      }
+    }
     
   },
   {
@@ -838,18 +708,15 @@
     "icon": "seated-mouse",
     "contents": {
       "subtitle" : "Small beast, unaligned",
-      
       "Armor class" : "12",
       "Hit points" : "7 (2d6)",
       "Speed" : "30 ft.",
-      
       "dndstats" : "7|15|11|2|10|4",
-      
       "Senses" : "darkvision 60 ft.",
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 10 Constitution saving throw or contract a disease. Until the disease is cured, the target can’t regain hit points except by magical means, and the target’s hit point maximum decreases by 3 (1d6) every 24 hours. If the target’s hit point maximum drops to 0 as a result of this disease, the target dies."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 10 Constitution saving throw or contract a disease. Until the disease is cured, the target can’t regain hit points except by magical means, and the target’s hit point maximum decreases by 3 (1d6) every 24 hours. If the target’s hit point maximum drops to 0 as a result of this disease, the target dies."
+      }
+    }
     
   },
   {
@@ -859,19 +726,16 @@
     "icon": "seahorse",
     "contents": {
       "subtitle" : "Large beast, unaligned",
-      
       "Armor class" : "13 (natural armor)",
       "Hit points" : "16 (3d10)",
       "Speed" : "0 ft., swim 40 ft.",
-      
       "dndstats" : "12|15|11|2|12|5",
-      
       "Charge" : "If the sea horse moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) bludgeoning damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.",
       "Water Breathing" : "The sea horse can breathe only underwater.",
-      
-      "Actions",
-      "Ram" : "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage."
-    },
+      "Actions": {
+        "Ram" : "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage."
+      }
+    }
     
   },
   {
@@ -881,34 +745,20 @@
     "icon": "masked-spider",
     "contents": {
       "subtitle" : "Large beast, unaligned",
-      
       "Armor class" : "14",
       "Hit points" : "26 (4d10+4)",
       "Speed" : "30 ft., climb 30 ft.",
-      
       "dndstats" : "14|16|12|2|11|4",
-      
       "Skills" : "Stealth +7",
       "Senses" : "blindsight 10 ft., darkvision 60 ft.",
-      
       "Spider Climb" : "The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
-      
       "Web Sense" : "While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.",
       "Web Walker" : "The spider ignores movement restrictions caused by webbing.",
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
-    },
-    
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Giant Spider (Cont. 3)",
-    "icon": "masked-spider",
-    "contents": {
-      "Actions (Cont.)",
-      "Web (Recharge 5-6)" : "Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.",
+        "Web (Recharge 5-6)" : "Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+      }
+    }
     
   },
   {
@@ -918,23 +768,19 @@
     "icon": "frog",
     "contents": {
       "subtitle" : "Large beast, unaligned",
-      
       "Armor class" : "11",
       "Hit points" : "39 (6d10+6)",
       "Speed" : "20 ft., swim 40 ft.",
-      
       "dndstats" : "15|13|13|2|10|3",
-      
       "Senses" : "darkvision 30 ft.",
-      
       "Amphibious" : "The frog can breathe air and water.",
       "Standing Leap" : "The toad’s long jump is up to 20 ft. and its high jump is up to 10 ft., with or without a running start.",
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 5 (1d10) poison damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the toad can’t bite another target.",
-      "Swallow" : "The toad makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 10 (3d6) acid damage at the start of each of the toad’s turns. The toad can have only one target swallowed at a time.",
-      "text" : "If the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 5 (1d10) poison damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the toad can’t bite another target.",
+        "Swallow" : "The toad makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 10 (3d6) acid damage at the start of each of the toad’s turns. The toad can have only one target swallowed at a time.",
+        "text" : "If the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone."
+      }
+    }
     
   },
   {
@@ -944,25 +790,19 @@
     "icon": "vulture",
     "contents": {
       "subtitle" : "Large beast, neutral evil",
-      
       "Armor class" : "10",
       "Hit points" : "22 (3d10+6)",
       "Speed" : "10 ft., fly 60 ft.",
-      
       "dndstats" : "15|10|15|6|12|7",
-      
       "Skills" : "Perception +3",
-      
       "Keen Sight and Smell" : "The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell.",
       "Pack Tactics" : "The vulture has advantage on an attack roll against a creature if at least one of the vulture’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.",
-      
-      "Actions",
-      "Multiattack" : "The vulture makes two attacks: one with its beak and one with its talons.",
-      "",
-      "Beak" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage.",
-      "",
-      "Talons" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage."
-    },
+      "Actions": {
+        "Multiattack" : "The vulture makes two attacks: one with its beak and one with its talons.",
+        "Beak" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage.",
+        "Talons" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage."
+      }
+    }
     
   },
   {
@@ -972,17 +812,14 @@
     "icon": "wasp-sting",
     "contents": {
       "subtitle" : "Medium beast, unaligned",
-      
       "Armor class" : "12",
       "Hit points" : "13 (3d8)",
       "Speed" : "10 ft., fly 50 ft., swim 50 ft.",
-      
       "dndstats" : "10|14|10|1|10|3",
-      
-      
-      "Actions",
-      "Sting" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
-    },
+      "Actions": {
+        "Sting" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+      }
+    }
     
   },
   {
@@ -992,20 +829,16 @@
     "icon": "pawprint",
     "contents": {
       "subtitle" : "Medium beast, unaligned",
-      
       "Armor class" : "13",
       "Hit points" : "9 (2d8)",
       "Speed" : "40 ft.",
-      
       "dndstats" : "11|16|10|4|12|5",
-      
       "Skills" : "Perception +3, Stealth +5",
-      
       "Keen Hearing and Smell" : "The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
-      
-      "Actions",
-      "Bite" : "Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage."
-    },
+      "Actions": {
+        "Bite" : "Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage."
+      }
+    }
     
   },
   {
@@ -1015,20 +848,17 @@
     "icon": "masked-spider",
     "contents": {
       "subtitle" : "Medium beast, unaligned",
-      
       "Armor class" : "13",
       "Hit points" : "11 (2d8+2)",
       "Speed" : "40 ft., climb 40 ft.",
-      
       "dndstats" : "12|16|13|3|12|4",
-      
       "Spider Climb" : "The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
-      "Web Sense|While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.",
+      "Web Sense" : "While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.",
       "Web Walker" : "The spider ignores movement restrictions caused by webbing.",
-      
-      "Actions",
-      "Bite" : "Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 7 (2d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
-    },
+      "Actions": {
+        "Bite" : "Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 7 (2d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+      }
+    }
     
   },
   {
@@ -1038,19 +868,16 @@
     "icon": "goat",
     "contents": {
       "subtitle" : "Medium beast, unaligned",
-      
       "Armor class" : "10",
       "Hit points" : "4 (1d8)",
       "Speed" : "40 ft.",
-      
       "dndstats" : "12|10|11|2|10|5",
-      
       "Charge" : "If the goat moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 (1d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 10 Strength saving throw or be knocked prone.",
       "Sure-Footed" : "The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.",
-      
-      "Actions",
-      "Ram" : "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage."
-    },
+      "Actions": {
+        "Ram" : "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage."
+      }
+    }
     
   },
   {
@@ -1060,18 +887,15 @@
     "icon": "dinosaur-rex",
     "contents": {
       "subtitle" : "Large beast, unaligned",
-      
       "Armor class" : "11 (natural armor)",
       "Hit points" : "19 (3d10+3)",
       "Speed" : "40 ft.",
-      
       "dndstats" : "15|10|13|2|10|5",
-      
       "Skills" : "Perception +2",
-      
-      "Actions",
-      "Tail" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10+2) bludgeoning damage."
-    },
+      "Actions": {
+        "Tail" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10+2) bludgeoning damage."
+      }
+    }
     
   },
   {
@@ -1081,20 +905,16 @@
     "icon": "hawk-emblem",
     "contents": {
       "subtitle" : "Tiny beast, unaligned",
-      
       "Armor class" : "13",
       "Hit points" : "1 (1d4-1)",
       "Speed" : "10 ft., fly 60 ft.",
-      
       "dndstats" : "5|16|8|2|14|6",
-      
       "Skills" : "Perception +4",
-      
       "Keen Sight" : "The hawk has advantage on Wisdom (Perception) checks that rely on sight.",
-      
-      "Actions",
-      "Talons" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 slashing damage."
-    },
+      "Actions": {
+        "Talons" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 slashing damage."
+      }
+    }
     
   },
   {
@@ -1104,20 +924,16 @@
     "icon": "wolf-head",
     "contents": {
       "subtitle" : "Medium beast, unaligned",
-      
       "Armor class" : "11",
       "Hit points" : "5 (1d8+1)",
       "Speed" : "50 ft.",
-      
       "dndstats" : "11|13|12|2|12|5",
-      
       "Skills" : "Perception +3",
-      
       "Pack Tactics" : "The hyena has advantage on an attack roll against a creature if at least one of the hyena’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.",
-      
-      "Actions",
-      "Bite" : "Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage."
-    },
+      "Actions": {
+        "Bite" : "Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage."
+      }
+    }
     
   },
   {
@@ -1127,21 +943,17 @@
     "icon": "hound",
     "contents": {
       "subtitle" : "Small beast, unaligned",
-      
       "Armor class" : "12",
       "Hit points" : "3 (1d6)",
       "Speed" : "40 ft.",
-      
       "dndstats" : "8|15|11|3|12|6",
-      
       "Skills" : "Perception +3",
-      
       "Keen Hearing and Smell" : "The jackal has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
       "Pack Tactics" : "The jackal has advantage on an attack roll against a creature if at least one of the jackal’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.",
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) piercing damage."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) piercing damage."
+      }
+    }
     
   },
   {
@@ -1151,27 +963,20 @@
     "icon": "lion",
     "contents": {
       "subtitle" : "Large beast, unaligned",
-      
       "Armor class" : "12",
       "Hit points" : "26 (4d10+4)",
       "Speed" : "50 ft.",
-      
       "dndstats" : "12|15|10|2|9|5",
-      
       "Skills" : "Perception +3, Stealth +6",
-      
       "Keen Smell" : "The lion has advantage on Wisdom (Perception) checks that rely on smell.",
       "Pack Tactics" : "The lion has advantage on an attack roll against a creature if at least one of the lion’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.",
       "Pounce" : "If the lion moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the lion can make one bite attack against it as a bonus action.",
-      "",
       "Running Leap" : "With a 10-foot running start, the lion can long jump up to 25 ft..",
-      "",
-      
-      "Actions",
-      "Bite|Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.",
-      "",
-      "Claw|Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.",
+        "Claw" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage."
+      }
+    }
     
   },
   {
@@ -1181,18 +986,15 @@
     "icon": "gecko",
     "contents": {
       "subtitle" : "Tiny beast, unaligned",
-      
       "Armor class" : "10",
       "Hit points" : "2 (1d4)",
       "Speed" : "20 ft., climb 20 ft.",
-      
       "dndstats" : "2|11|10|1|8|3",
-      
       "Senses" : "darkvision 30 ft.",
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
+      }
+    }
     
   },
   {
@@ -1202,20 +1004,16 @@
     "icon": "hound",
     "contents": {
       "subtitle" : "Medium beast, unaligned",
-      
       "Armor class" : "12",
       "Hit points" : "5 (1d8+1)",
       "Speed" : "40 ft.",
-      
       "dndstats" : "13|14|12|3|12|7",
-      
       "Skills" : "Perception +3",
-      
       "Keen Hearing and Smell" : "The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone."
+      }
+    }
     
   },
   {
@@ -1225,21 +1023,17 @@
     "icon": "donkey",
     "contents": {
       "subtitle" : "Medium beast, unaligned",
-      
       "Armor class" : "10",
       "Hit points" : "11 (2d8+2)",
       "Speed" : "40 ft.",
-      
       "dndstats" : "8|10|12|1|7|3",
-      
       "Senses" : "blindsight 30 ft.",
-      
       "Beast of Burden" : "The mule is considered to be a Large animal for the purpose of determining its carrying capacity.",
       "Sure-Footed" : "The mule has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.",
-      
-      "Actions",
-      "Hooves" : "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage."
-    },
+      "Actions": {
+        "Hooves" : "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage."
+      }
+    }
     
   },
   {
@@ -1249,24 +1043,20 @@
     "icon": "octopus",
     "contents": {
       "subtitle" : "Small beast, unaligned",
-      
       "Armor class" : "12",
       "Hit points" : "3 (1d6)",
       "Speed" : "5 ft., swim 30 ft.",
-      
       "dndstats" : "4|15|11|3|10|4",
-      
       "Skills" : "Perception +2, Stealth +4",
       "Senses" : "darkvision 30 ft.",
-      
       "Hold Breath" : "While out of water, the octopus can hold its breath for 30 minutes.",
       "Underwater Camouflage" : "The octopus has advantage on Dexterity (Stealth) checks made while underwater.",
       "Water Breathing" : "The octopus can breathe only underwater.",
-      
-      "Actions",
-      "Tentacles" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage, and the target is grappled (escape DC 10). Until this grapple ends, the octopus can’t use its tentacles on another target.",
-      "Ink Cloud (Recharges after a Short or Long Rest)" : "A 5-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action."
-    },
+      "Actions": {
+        "Tentacles" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage, and the target is grappled (escape DC 10). Until this grapple ends, the octopus can’t use its tentacles on another target.",
+        "Ink Cloud (Recharges after a Short or Long Rest)" : "A 5-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action."
+      }
+    }
     
   },
   {
@@ -1276,21 +1066,17 @@
     "icon": "owl",
     "contents": {
       "subtitle" : "Tiny beast, unaligned",
-      
       "Armor class" : "11",
       "Hit points" : "1 (1d4-1)",
       "Speed" : "5 ft., fly 60 ft.",
-      
       "dndstats" : "3|13|8|2|12|7",
-      
       "Skills" : "Perception +3, Stealth +3",
-      
       "Flyby" : "The owl doesn’t provoke opportunity attacks when it flies out of an enemy’s reach.",
       "Keen Hearing and Sight" : "The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight.",
-      
-      "Actions",
-      "Talons" : "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1 slashing damage."
-    },
+      "Actions": {
+        "Talons" : "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1 slashing damage."
+      }
+    }
     
   },
   {
@@ -1300,22 +1086,18 @@
     "icon": "feline",
     "contents": {
       "subtitle" : "Medium beast, unaligned",
-      
       "Armor class" : "12",
       "Hit points" : "13 (3d8)",
       "Speed" : "50 ft., climb 40 ft.",
-      
       "dndstats" : "14|15|10|3|14|7",
-      
       "Skills" : "Perception +4, Stealth +6",
-      
       "Keen Smell" : "The panther has advantage on Wisdom (Perception) checks that rely on smell.",
       "Pounce" : "If the panther moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 12 Strength saving throw or be knocked prone. If the target is prone, the panther can make one bite attack against it as a bonus action.",
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
-      "Claw" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+        "Claw" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage."
+      }
+    }
     
   },
   {
@@ -1325,18 +1107,15 @@
     "icon": "snake",
     "contents": {
       "subtitle" : "Tiny beast, unaligned",
-      
       "Armor class" : "13",
       "Hit points" : "2 (1d4)",
       "Speed" : "30 ft., swim 30 ft.",
-      
       "dndstats" : "2|16|11|1|10|3",
-      
       "Senses" : "blindsight 10 ft.",
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage, and the target must make a DC 10 Constitution saving throw, taking 5 (2d4) poison damage on a failed save, or half as much damage on a successful one."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage, and the target must make a DC 10 Constitution saving throw, taking 5 (2d4) poison damage on a failed save, or half as much damage on a successful one."
+      }
+    }
     
   },
   {
@@ -1346,21 +1125,17 @@
     "icon": "piranha",
     "contents": {
       "subtitle" : "Tiny beast, unaligned",
-      
       "Armor class" : "13",
       "Hit points" : "1 (1d4-1)",
       "Speed" : "swim 40 ft.",
-      
       "dndstats" : "2|16|9|1|7|2",
-      
       "Senses" : "darkvision 60 ft.",
-      
       "Blood Frenzy" : "The quipper has advantage on melee attack rolls against any creature that doesn’t have all its hit points.",
       "Water Breathing" : "The quipper can breathe only underwater.",
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
+      }
+    }
     
   },
   {
@@ -1370,20 +1145,16 @@
     "icon": "seated-mouse",
     "contents": {
       "subtitle" : "Tiny beast, unaligned",
-      
       "Armor class" : "10",
       "Hit points" : "1 (1d4-1)",
       "Speed" : "20 ft.",
-      
       "dndstats" : "2|11|9|2|10|4",
-      
       "Senses" : "darkvision 30 ft.",
-      
       "Keen Smell" : "The rat has advantage on Wisdom (Perception) checks that rely on smell.",
-      
-      "Actions",
-      "Beak" : "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
-    },
+      "Actions": {
+        "Beak" : "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
+      }
+    }
     
   },
   {
@@ -1393,20 +1164,16 @@
     "icon": "raven",
     "contents": {
       "subtitle" : "Tiny beast, unaligned",
-      
       "Armor class" : "12",
       "Hit points" : "1 (1d4-1)",
       "Speed" : "10 ft., fly 50 ft.",
-      
       "dndstats" : "2|14|8|2|12|6",
-      
       "Skills" : "Perception +3",
-      
       "Mimicry" : "The raven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check.",
-      
-      "Actions",
-      "Beak" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
-    },
+      "Actions": {
+        "Beak" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
+      }
+    }
     
   },
   {
@@ -1416,22 +1183,18 @@
     "icon": "shark-jaws",
     "contents": {
       "subtitle" : "Medium beast, unaligned",
-      
       "Armor class" : "12 (natural armor)",
       "Hit points" : "22 (4d8+4)",
       "Speed" : "swim 40 ft.",
-      
       "dndstats" : "14|13|13|1|10|4",
-      
       "Skills" : "Perception +2",
       "Senses" : "blindsight 30 ft.",
-      
       "Pack Tactics" : "The shark has advantage on an attack roll against a creature if at least one of the shark’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.",
       "Water Breathing" : "The shark can breathe only underwater.",
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+      }
+    }
     
   },
   {
@@ -1441,17 +1204,14 @@
     "icon": "horse-head",
     "contents": {
       "subtitle" : "Large beast, unaligned",
-      
       "Armor class" : "10",
       "Hit points" : "13 (2d10+2)",
       "Speed" : "60 ft.",
-      
       "dndstats" : "16|10|12|2|11|7",
-      
-      
-      "Actions",
-      "Hooves" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage."
-    },
+      "Actions": {
+        "Hooves" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage."
+      }
+    }
     
   },
   {
@@ -1461,18 +1221,15 @@
     "icon": "scorpion",
     "contents": {
       "subtitle" : "Tiny beast, unaligned",
-      
       "Armor class" : "11",
       "Hit points" : "1 (1d4-1)",
       "Speed" : "10 ft.",
-      
       "dndstats" : "2|11|9|2|10|4",
-      
       "Senses" : "blindsight 10 ft.",
-      
-      "Actions",
-      "Sting" : "Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must make a DC 9 Constitution saving throw, taking 4 (1d8) poison damage on a failed save, or half as much damage on a successful one."
-    },
+      "Actions": {
+        "Sting" : "Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must make a DC 9 Constitution saving throw, taking 4 (1d8) poison damage on a failed save, or half as much damage on a successful one."
+      }
+    }
     
   },
   {
@@ -1482,15 +1239,12 @@
     "icon": "seahorse",
     "contents": {
       "subtitle" : "Tiny beast, unaligned",
-      
       "Armor class" : "11",
       "Hit points" : "1 (1d4-1)",
       "Speed" : "swim 20 ft.",
-      
       "dndstats" : "1|12|8|1|10|2",
-      
       "Water Breathing" : "The sea horse can breathe only underwater."
-    },
+    }
     
   },
   {
@@ -1500,23 +1254,19 @@
     "icon": "masked-spider",
     "contents": {
       "subtitle" : "Tiny beast, unaligned",
-      
       "Armor class" : "12",
       "Hit points" : "1 (1d4-1)",
       "Speed" : "20 ft., climb 20 ft.",
-      
       "dndstats" : "2|14|8|1|10|2",
-      
       "Skills" : "Stealth +4",
       "Senses" : "darkvision 30 ft.",
-      
       "Spider Climb" : "The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
       "Web Sense" : "While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.",
       "Web Walker" : "The spider ignores movement restrictions caused by webbing.",
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must succeed on a DC 9 Constitution saving throw or take 2 (1d4) poison damage."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must succeed on a DC 9 Constitution saving throw or take 2 (1d4) poison damage."
+      }
+    }
     
   },
   {
@@ -1526,19 +1276,16 @@
     "icon": "amber-mosquito",
     "contents": {
       "subtitle" : "Tiny beast, unaligned",
-      
       "Armor class" : "14 (natural armor)",
       "Hit points" : "2 (1d4)",
       "Speed" : "10 ft., fly 40 ft.",
-      
       "dndstats" : "4|16|11|2|8|6",
-      
       "Senses" : "darkvision 60 ft.",
-      "Actions",
-      "Blood Drain" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage, and the stirge attaches to the target. While attached, the stirge doesn’t attack. Instead, at the start of each of the stirge’s turns, the target loses 5 (1d4 + 3) hit points due to blood loss.",
-      "",
-      "text" : "The stirge can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge."
-    },
+      "Actions": {
+        "Blood Drain" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage, and the stirge attaches to the target. While attached, the stirge doesn’t attack. Instead, at the start of each of the stirge’s turns, the target loses 5 (1d4 + 3) hit points due to blood loss.",
+        "text" : "The stirge can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge."
+      }
+    }
     
   },
   {
@@ -1548,24 +1295,19 @@
     "icon": "tiger",
     "contents": {
       "subtitle" : "Large beast, unaligned",
-      
       "Armor class" : "12",
       "Hit points" : "37 (5d10+10)",
       "Speed" : "40 ft.",
-      
       "dndstats" : "17|15|14|3|12|8",
-      
       "Skills" : "Perception +3, Stealth +6",
       "Senses" : "darkvision 60 ft.",
-      
       "Keen Smell" : "The lion has advantage on Wisdom (Perception) checks that rely on smell.",
       "Pounce" : "If the tiger moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the tiger can make one bite attack against it as a bonus action.",
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage.",
-      "",
-      "Claw" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage.",
+        "Claw" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage."
+      }
+    }
     
   },
   {
@@ -1575,22 +1317,17 @@
     "icon": "vulture",
     "contents": {
       "subtitle" : "Medium beast, unaligned",
-      
       "Armor class" : "10",
       "Hit points" : "5 (1d8+1)",
       "Speed" : "10 ft., fly 50 ft.",
-      
       "dndstats" : "7|10|13|2|12|4",
-      
       "Skills" : "Perception +3",
-      
       "Keen Sight and Smell" : "The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell.",
-      
       "Pack Tactics" : "The vulture has advantage on an attack roll against a creature if at least one of the vulture’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.",
-      
-      "Actions",
-      "Beak" : "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage."
-    },
+      "Actions": {
+        "Beak" : "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage."
+      }
+    }
     
   },
   {
@@ -1600,18 +1337,15 @@
     "icon": "horse-head",
     "contents": {
       "subtitle" : "Large beast, unaligned",
-      
       "Armor class" : "11",
       "Hit points" : "19 (3d10+3)",
       "Speed" : "60 ft.",
-      
       "dndstats" : "18|12|13|2|12|7",
-      
       "Trampling Charge" : "If the horse moves at least 20 ft. straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the horse can make another attack with its hooves against it as a bonus action.",
-      
-      "Actions",
-      "Hooves" : "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage."
-    },
+      "Actions": {
+        "Hooves" : "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage."
+      }
+    }
     
   },
   {
@@ -1621,20 +1355,16 @@
     "icon": "pawprint",
     "contents": {
       "subtitle" : "Tiny beast, unaligned",
-      
       "Armor class" : "13",
       "Hit points" : "1 (1d4-1)",
       "Speed" : "30 ft.",
-      
       "dndstats" : "3|16|8|2|12|3",
-      
       "Skills" : "Perception +3, Stealth +5",
-      
       "Keen Hearing and Smell" : "The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 1 piercing damage."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 1 piercing damage."
+      }
+    }
     
   },
   {
@@ -1644,21 +1374,17 @@
     "icon": "wolf-howl",
     "contents": {
       "subtitle" : "Medium beast, unaligned",
-      
       "Armor class" : "13 (natural armor)",
       "Hit points" : "11 (2d8+2)",
       "Speed" : "40 ft.",
-      
       "dndstats" : "12|15|12|3|12|6",
-      
       "Skills" : "Perception +3, Stealth +4",
-      
       "Keen Hearing and Smell" : "The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
       "Pack Tactics" : "The wolf has advantage on an attack roll against a creature if at least one of the wolf’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.",
-      
-      "Actions",
-      "Bite" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone."
-    },
+      "Actions": {
+        "Bite" : "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone."
+      }
+    }
     
   }
 ]
