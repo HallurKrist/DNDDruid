@@ -18,21 +18,9 @@
       "section | Actions",
       "description | Multiattack | The ape makes two fist attacks.",
       "description | Fist|Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.",
+      "description | Rock| Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.",
       "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Ape (Cont.)",
-    "icon": "monkey",
-    "contents": [
-      "section | Actions (Cont.)",
-      "description | Rock| Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage."
+      "section"
     ],
     "tags": [],
     "title_size": ""
@@ -122,21 +110,10 @@
       "rule",
       "description | Echolocation | The bat can’t use its blindsight while deafened.",
       "description | Keen Hearing | The bat has advantage on Wisdom (Perception) checks that rely on hearing.",
-      "fill",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Bat (Cont.)",
-    "icon": "bat",
-    "contents": [
       "section | Actions",
-      "description | Bite | Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. Hit: 1 piercing damage."
+      "description | Bite | Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.",
+      "fill",
+      "section"
     ],
     "tags": [],
     "title_size": ""
@@ -158,27 +135,16 @@
       "property | Skills | Athletics +5, Perception +3",
       "rule",
       "description | Keen Smell |The bear has advantage on Wisdom (Perception) checks that rely on smell.",
-      "fill |2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Black Bear (Cont.)",
-    "icon": "bear-head",
-    "contents": [
       "section |Actions",
       "description | Multiattack |The bear makes two attacks: one with its bite and one with its claws.",
       "description | Bite |Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
-      "description | Claws |Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage."
+      "description | Claws |Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage.",
+      "fill |2",
+      "section"
     ],
     "tags": [],
     "title_size": ""
-  },
+  },"description | Bite | Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
   {
     "count": "1",
     "color": "black",
@@ -196,23 +162,11 @@
       "property | Skills | Perception +4",
       "rule",
       "description | Keen Sight | The hawk has advantage on Wisdom (Perception) checks that rely on sight.",
-      "fill",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Blood Hawk (Cont.)",
-    "icon": "hawk-emblem",
-    "contents": [
       "description | Pack Tactics | The hawk has advantage on an attack roll against a creature if at least one of the hawk’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.",
+      "section | Actions",
+      "description | Beak | Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
       "fill",
-      "section",
-      "description | Beak | Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+      "section"
     ],
     "tags": [],
     "title_size": ""
@@ -232,27 +186,16 @@
       "dndstats | 13|11|12|2|9|5",
       "rule",
       "description | Charge | If the boar moves at least 20 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 3 (1d6) slashing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.",
-      "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Boar (Cont.)",
-    "icon": "boar-tusks",
-    "contents": [
       "description | Relentless (Recharges after a Short or Long Rest)| If the boar takes 7 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.",
-      "fill | 2",
       "section | Actions",
-      "description | Tusk | Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage."
+      "description | Tusk | Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage.",
+      "fill | 2",
+      "section"
     ],
     "tags": [],
     "title_size": ""
   },
+
   {
     "count": "1",
     "color": "black",
@@ -271,18 +214,6 @@
       "rule",
       "description | Keen Smell |The bear has advantage on Wisdom (Perception) checks that rely on smell.",
       "fill",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Brown Bear (Cont.)",
-    "icon": "wolf",
-    "contents": [
       "section | Actions",
       "description | Multiattack | The bear makes two attacks: one with its bite and one with its claws.",
       "description | Bite | Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.",
@@ -355,22 +286,11 @@
       "fill | 2",
       "section | Actions",
       "description | Bite | Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage.",
+      "description | Constrict | Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) bludgeoning damage, .and the target is grappled (escape DC 14). Until this grapple ends, the creature is restrained, and the snake can’t constrict another target.",
       "fill | 2",
-      "section",
-      "text | ... continued on next card"
+      "section"
     ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Constrictor Snake (Cont.)",
-    "icon": "snake",
-    "contents": [
-      "section | Actions (Cont.)",
-      "description | Constrict | Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) bludgeoning damage, and the target is grappled (escape DC 14). Until this grapple ends, the creature is restrained, and the snake can’t constrict another target."
-    ],
+
     "tags": [],
     "title_size": "12"
   },
@@ -439,20 +359,8 @@
       "rule",
       "description | Hold Breath | The crocodile can hold its breath for 15 minutes.",
       "fill |2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Crocodile (Cont.)",
-    "icon": "croc-jaws",
-    "contents": [
       "section | Actions",
-      "description | Bite | Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the crocodile can’t bite another target."
+      "description | Bite | Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the crocodile can’t bite another target.",
     ],
     "tags": [],
     "title_size": ""
@@ -497,17 +405,6 @@
       "description | Keen Hearing and Smell | The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
       "fill | 2",
       "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Dire Wolf (Cont.)",
-    "icon": "wolf-howl",
-    "contents": [
       "description | Pack Tactics | The wolf has advantage on an attack roll against a creature if at least one of the wolf’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.",
       "fill | 2",
       "section | Actions",
@@ -577,18 +474,6 @@
       "rule",
       "description | Charge | If the elk moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.",
       "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Elk (Cont.)",
-    "icon": "hoof",
-    "contents": [
       "section | Actions",
       "description | Ram | Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.",
       "description | Hooves | Melee Weapon Attack: +5 to hit, reach 5 ft., one prone creature. Hit: 8 (2d4 + 3) bludgeoning damage."
@@ -661,18 +546,6 @@
       "rule",
       "description | Keen Smell | The badger has advantage on Wisdom (Perception) checks that rely on smell.",
       "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Giant Badger (Cont.)",
-    "icon": "",
-    "contents": [
       "section | Actions",
       "description | Multiattack| The badger makes two attacks: one with its bite and one with its claws.",
       "description | Bite| Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.",
@@ -700,18 +573,6 @@
       "description | Echolocation | The bat can’t use its blindsight while deafened.",
       "description | Keen Hearing | The bat has advantage on Wisdom (Perception) checks that rely on hearing.",
       "fill",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Giant Bat (Cont.)",
-    "icon": "bat",
-    "contents": [
       "section | Actions",
       "description | Bite | Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage."
     ],
@@ -734,18 +595,6 @@
       "rule",
       "property | Senses | blindsight 30 ft.",
       "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Giant Centipede (Cont.)",
-    "icon": "centipede",
-    "contents": [
       "section | Actions",
       "description | Bite | Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or take 10 (3d6) poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
     ],
@@ -771,18 +620,6 @@
       "rule",
       "description | Amphibious | The crab can breathe air and water.",
       "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Giant Crab (Cont.)",
-    "icon": "crab",
-    "contents": [
       "section | Actions",
       "description | Claw | Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage, and the target is grappled (escape DC 11). The crab has two claws, each of which can grapple only one target."
     ],
@@ -807,18 +644,6 @@
       "rule",
       "description | Keen Sight | The eagle has advantage on Wisdom (Perception) checks that rely on sight.",
       "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Giant Eagle (Cont.)",
-    "icon": "eagle-emblem",
-    "contents": [
       "section | Actions",
       "description | Multiattack | The eagle makes two attacks: one with its beak and one with its talons.",
       "description | Beak | Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
@@ -871,34 +696,8 @@
       "description | Amphibious | The frog can breathe air and water.",
       "description | Standing Leap | The frog’s long jump is up to 20 ft. and its high jump is up to 10 ft., with or without a running start.",
       "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Giant Frog (Cont. 1)",
-    "icon": "frog",
-    "contents": [
       "section | Actions",
       "description | Bite | Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage, and the target is grappled (escape DC 11). Until this grapple ends, the target is restrained, and the frog can’t bite another target.",
-      "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Giant Frog (Cont. 2)",
-    "icon": "frog",
-    "contents": [
-      "section | Actions (Cont.)",
       "description | Swallow | The frog makes one bite attack against a Small or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the frog, and it takes 5 (2d4) acid damage at the start of each of the frog’s turns. The frog can have only one target swallowed at a time. If the frog dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 ft. of movement, exiting prone."
     ],
     "tags": [],
@@ -919,19 +718,6 @@
       "dndstats | 17|11|12|3|12|6",
       "rule",
       "description | Charge|  If the goat moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 5 (2d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.",
-      "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "",
-    "title": "Giant Goat (Cont.)",
-    "icon": "goat",
-    "contents": [
       "description | Sure-Footed | The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.",
       "fill | 2",
       "section | Actions",
@@ -958,18 +744,6 @@
       "rule",
       "description | Rampage | When the hyena reduces a creature to 0 hit points with a melee attack on its turn, the hyena can take a bonus action to move up to half its speed and make a bite attack.",
       "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Giant Hyena (Cont.)",
-    "icon": "wolf-head",
-    "contents": [
       "section | Actions",
       "description | Bite | Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage."
     ],
@@ -993,18 +767,6 @@
       "description | Hold Breath | The lizard can hold its breath for 15 minutes. (A lizard that has this trait also has a swimming speed of 30 feet.)",
       "description | Spider Climb | The lizard can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
       "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Giant Lizard (Cont.)",
-    "icon": "gecko",
-    "contents": [
       "section | Actions",
       "description | Bite | Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
     ],
@@ -1030,19 +792,6 @@
       "rule",
       "description | Hold Breath | While out of water, the octopus can hold its breath for 1 hour.",
       "description | Underwater Camouflage | The octopus has advantage on Dexterity (Stealth) checks made while underwater.",
-      "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Giant Octopus (Cont.)",
-    "icon": "octopus",
-    "contents": [
       "description | Water Breathing | The octopus can breathe only underwater.",
       "fill",
       "section | Actions",
@@ -1072,18 +821,6 @@
       "description | Flyby | The owl doesn’t provoke opportunity attacks when it flies out of an enemy’s reach.",
       "description | Keen Hearing and Sight | The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight.",
       "fill",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Giant Owl (Cont.)",
-    "icon": "owl",
-    "contents": [
       "section | Actions",
       "description | Talons | Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8 (2d6 + 1) slashing damage."
     ],
@@ -1132,18 +869,6 @@
       "description | Keen Smell | The rat has advantage on Wisdom (Perception) checks that rely on smell.",
       "description | Pack Tactics | The rat has advantage on an attack roll against a creature if at least one of the rat’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.",
       "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Giant Rat (Cont.)",
-    "icon": "seated-mouse",
-    "contents": [
       "section | Actions",
       "description | Bite | Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
     ],
@@ -1166,23 +891,11 @@
       "rule",
       "property | Senses | darkvision 60 ft.",
       "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Giant Rat (Diseased) (Cont.)",
-    "icon": "seated-mouse",
-    "contents": [
       "section | Actions",
       "description | Bite | Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 10 Constitution saving throw or contract a disease. Until the disease is cured, the target can’t regain hit points except by magical means, and the target’s hit point maximum decreases by 3 (1d6) every 24 hours. If the target’s hit point maximum drops to 0 as a result of this disease, the target dies."
     ],
     "tags": [],
-    "title_size": "11"
+    "title_size": ""
   },
   {
     "count": "1",
@@ -1199,19 +912,6 @@
       "dndstats | 12|15|11|2|12|5",
       "rule",
       "description | Charge | If the sea horse moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) bludgeoning damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.",
-      "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Giant Sea Horse (Cont.)",
-    "icon": "seahorse",
-    "contents": [
       "description | Water Breathing | The sea horse can breathe only underwater.",
       "fill",
       "section | Actions",
@@ -1239,30 +939,8 @@
       "rule",
       "description | Spider Climb | The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
       "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Giant Spider (Cont. 1)",
-    "icon": "masked-spider",
-    "contents": [
       "description | Web Sense | While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.",
-      "description | Web Walker | The spider ignores movement restrictions caused by webbing."
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Giant Spider (Cont. 2)",
-    "icon": "masked-spider",
-    "contents": [
+      "description | Web Walker | The spider ignores movement restrictions caused by webbing.",
       "section | Actions",
       "description | Bite | Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
     ],
@@ -1300,31 +978,8 @@
       "description | Amphibious | The frog can breathe air and water.",
       "description | Standing Leap | The toad’s long jump is up to 20 ft. and its high jump is up to 10 ft., with or without a running start.",
       "fill",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Giant Toad (Cont. 1)",
-    "icon": "frog",
-    "contents": [
       "section | Actions",
-      "description | Bite | Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 5 (1d10) poison damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the toad can’t bite another target."
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Giant Toad (Cont. 2)",
-    "icon": "frog",
-    "contents": [
-      "section | Actions (Cont.)",
+      "description | Bite | Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 5 (1d10) poison damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the toad can’t bite another target.",
       "description | Swallow | The toad makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 10 (3d6) acid damage at the start of each of the toad’s turns. The toad can have only one target swallowed at a time.",
       "text | If the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone."
     ],
@@ -1348,19 +1003,6 @@
       "property | Skills | Perception +3",
       "rule",
       "description | Keen Sight and Smell | The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell.",
-      "fill",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Giant Vulture (Cont.)",
-    "icon": "vulture",
-    "contents": [
       "description | Pack Tactics | The vulture has advantage on an attack roll against a creature if at least one of the vulture’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.",
       "fill",
       "section | Actions",
@@ -1388,18 +1030,6 @@
       "dndstats | 10|14|10|1|10|3",
       "rule",
       "fill",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Giant Wasp (Cont.)",
-    "icon": "wasp-sting",
-    "contents": [
       "section | Actions",
       "description | Sting | Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
     ],
@@ -1446,19 +1076,6 @@
       "rule",
       "description | Spider Climb | The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
       "description | Web Sense|While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.",
-      "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Giant Wolf Spider (Cont.)",
-    "icon": "masked-spider",
-    "contents": [
       "description | Web Walker | The spider ignores movement restrictions caused by webbing.",
       "fill | 2",
       "section | Actions",
@@ -1482,19 +1099,6 @@
       "dndstats | 12|10|11|2|10|5",
       "rule",
       "description | Charge| If the goat moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 (1d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 10 Strength saving throw or be knocked prone.",
-      "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "",
-    "title": "Goat (Cont.)",
-    "icon": "goat",
-    "contents": [
       "description | Sure-Footed | The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.",
       "fill | 2",
       "section | Actions",
@@ -1590,19 +1194,6 @@
       "property | Skills | Perception +3",
       "rule",
       "description | Keen Hearing and Smell | The jackal has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
-      "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Jackal (Cont.)",
-    "icon": "hound",
-    "contents": [
       "description | Pack Tactics | The jackal has advantage on an attack roll against a creature if at least one of the jackal’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.",
       "fill | 2",
       "section | Actions",
@@ -1629,19 +1220,6 @@
       "rule",
       "description | Keen Smell | The lion has advantage on Wisdom (Perception) checks that rely on smell.",
       "description | Pack Tactics | The lion has advantage on an attack roll against a creature if at least one of the lion’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.",
-      "fill",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Lion (Cont.)",
-    "icon": "lion",
-    "contents": [
       "description | Pounce | If the lion moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the lion can make one bite attack against it as a bonus action.",
       "",
       "description | Running Leap | With a 10-foot running start, the lion can long jump up to 25 ft..",
@@ -1695,18 +1273,6 @@
       "rule",
       "description | Keen Hearing and Smell | The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
       "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Mastiff (Cont.)",
-    "icon": "hound",
-    "contents": [
       "section | Actions",
       "description | Bite | Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone."
     ],
@@ -1732,18 +1298,6 @@
       "description | Beast of Burden | The mule is considered to be a Large animal for the purpose of determining its carrying capacity.",
       "description | Sure-Footed | The mule has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.",
       "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Mule (Cont.)",
-    "icon": "donkey",
-    "contents": [
       "section | Actions",
       "description | Hooves| Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage."
     ],
@@ -1769,19 +1323,6 @@
       "rule",
       "description | Hold Breath | While out of water, the octopus can hold its breath for 30 minutes.",
       "description | Underwater Camouflage | The octopus has advantage on Dexterity (Stealth) checks made while underwater.",
-      "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Octopus (Cont.)",
-    "icon": "octopus",
-    "contents": [
       "description | Water Breathing | The octopus can breathe only underwater.",
       "fill | 2",
       "section | Actions",
@@ -1810,18 +1351,6 @@
       "description | Flyby | The owl doesn’t provoke opportunity attacks when it flies out of an enemy’s reach.",
       "description | Keen Hearing and Sight | The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight.",
       "fill",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Owl (Cont.)",
-    "icon": "owl",
-    "contents": [
       "section | Actions",
       "description | Talons | Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1 slashing damage."
     ],
@@ -1845,19 +1374,6 @@
       "property | Skills | Perception +4, Stealth +6",
       "rule",
       "description | Keen Smell | The panther has advantage on Wisdom (Perception) checks that rely on smell.",
-      "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Panther (Cont.)",
-    "icon": "feline",
-    "contents": [
       "description | Pounce | If the panther moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 12 Strength saving throw or be knocked prone. If the target is prone, the panther can make one bite attack against it as a bonus action.",
       "fill | 2",
       "section | Actions",
@@ -1908,18 +1424,6 @@
       "description | Blood Frenzy | The quipper has advantage on melee attack rolls against any creature that doesn’t have all its hit points.",
       "description | Water Breathing | The quipper can breathe only underwater.",
       "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Quipper (Cont.)",
-    "icon": "piranha",
-    "contents": [
       "section | Actions",
       "description | Bite | Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
     ],
@@ -1968,18 +1472,6 @@
       "rule",
       "description | Mimicry | The raven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check.",
       "fill",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Raven (Cont.)",
-    "icon": "raven",
-    "contents": [
       "section | Actions",
       "description | Beak | Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
     ],
@@ -2004,19 +1496,6 @@
       "property | Senses | blindsight 30 ft.",
       "rule",
       "description | Pack Tactics | The shark has advantage on an attack roll against a creature if at least one of the shark’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.",
-      "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Reef Shark (Cont.)",
-    "icon": "shark-jaws",
-    "contents": [
       "description | Water Breathing | The shark can breathe only underwater.",
       "fill",
       "section | Actions",
@@ -2105,19 +1584,6 @@
       "property | Senses | darkvision 30 ft.",
       "rule",
       "description | Spider Climb | The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
-      "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Spider (Cont.)",
-    "icon": "masked-spider",
-    "contents": [
       "description | Web Sense | While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.",
       "description | Web Walker | The spider ignores movement restrictions caused by webbing.",
       "fill | 2",
@@ -2142,19 +1608,6 @@
       "dndstats | 4|16|11|2|8|6",
       "rule",
       "property | Senses | darkvision 60 ft.",
-      "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Stirge (Cont.)",
-    "icon": "amber-mosquito",
-    "contents": [
       "section | Actions",
       "description | Blood Drain | Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage, and the stirge attaches to the target. While attached, the stirge doesn’t attack. Instead, at the start of each of the stirge’s turns, the target loses 5 (1d4 + 3) hit points due to blood loss.",
       "",
@@ -2181,19 +1634,6 @@
       "property | Senses | darkvision 60 ft.",
       "rule",
       "description | Keen Smell | The lion has advantage on Wisdom (Perception) checks that rely on smell.",
-      "fill",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Tiger (Cont.)",
-    "icon": "tiger",
-    "contents": [
       "description | Pounce | If the tiger moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the tiger can make one bite attack against it as a bonus action.",
       "fill",
       "section | Actions",
@@ -2222,18 +1662,6 @@
       "rule",
       "description | Keen Sight and Smell | The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell.",
       "fill",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Vulture (Cont.)",
-    "icon": "vulture",
-    "contents": [
       "description | Pack Tactics | The vulture has advantage on an attack roll against a creature if at least one of the vulture’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.",
       "fill",
       "section | Actions",
@@ -2258,18 +1686,6 @@
       "rule",
       "description | Trampling Charge | If the horse moves at least 20 ft. straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the horse can make another attack with its hooves against it as a bonus action.",
       "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Warhorse (Cont.)",
-    "icon": "horse-head",
-    "contents": [
       "section | Actions",
       "description | Hooves | Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage."
     ],
@@ -2317,19 +1733,6 @@
       "property | Skills | Perception +3, Stealth +4",
       "rule",
       "description | Keen Hearing and Smell | The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
-      "fill | 2",
-      "section",
-      "text | ... continued on next card"
-    ],
-    "tags": [],
-    "title_size": ""
-  },
-  {
-    "count": "1",
-    "color": "black",
-    "title": "Wolf (Cont.)",
-    "icon": "wolf-howl",
-    "contents": [
       "description | Pack Tactics | The wolf has advantage on an attack roll against a creature if at least one of the wolf’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.",
       "fill | 2",
       "section | Actions",
@@ -2337,5 +1740,5 @@
     ],
     "tags": [],
     "title_size": ""
-  }
+  },
 ]
