@@ -4,19 +4,20 @@
     "color": "black",
     "title": "Ape",
     "icon": "monkey",
-    "contents": [{
-      "subtitle" : "Medium beast, unaligned",
-      "Armor class" : "12",
-      "Hit points" : "19 (3d8+6)",
-      "Speed" : "30 ft., climb 30 ft.",
-      "dndstats" : "16|14|14|6|12|7",
-      "Skills" : "Athletics +5, Perception +3",
-      "Actions" : [{
-        "Multiattack" : "The ape makes two fist attacks.",
-        "Fist" : "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.",
-        "Rock" : " Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage."
-      }]
-    }],
+    "contents": 
+      {
+      "subtitle": "Medium beast, unaligned",
+      "Armor class": "12",
+      "Hit points": "19 (3d8+6)",
+      "Speed": "30 ft., climb 30 ft.",
+      "dndstats": "16|14|14|6|12|7",
+      "Skills": "Athletics +5, Perception +3",
+      "Actions": {
+        "Multiattack": "The ape makes two fist attacks.",
+        "Fist": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.",
+        "Rock": " Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage."
+      }
+    },
     "tags": [],
     "title_size": ""
   },
