@@ -144,7 +144,7 @@
     ],
     "tags": [],
     "title_size": ""
-  },"description | Bite | Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
+  },
   {
     "count": "1",
     "color": "black",
@@ -360,7 +360,7 @@
       "description | Hold Breath | The crocodile can hold its breath for 15 minutes.",
       "fill |2",
       "section | Actions",
-      "description | Bite | Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the crocodile can’t bite another target.",
+      "description | Bite | Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the crocodile can’t bite another target."
     ],
     "tags": [],
     "title_size": ""
