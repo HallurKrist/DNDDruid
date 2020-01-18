@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
      return result.json();
    })
    .then((data) => {
+    window.localStorage.setItem('DNDDruidBeasts', JSON.stringify(data));
      debugger;
    })
    .catch((error) => console.error(error));
