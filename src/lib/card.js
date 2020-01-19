@@ -16,7 +16,6 @@ export function makeCards(page) {
 function makeBeastCard(beastData, parentElement) {
   //frummstilla
   const theCard = el('div', 'card');
-  theCard.classList.add('col');
   theCard.classList.add('beast');
   const imageDiv = el('div', 'image');
   const textDiv = el('div', 'text');
@@ -30,15 +29,15 @@ function makeBeastCard(beastData, parentElement) {
   theCard.appendChild(textDiv);
 
   theTitle.appendChild(document.createTextNode(`${beastData.title}`));
-  theImage.setAttribute('src', `${beastData.image}`);
-
+  theImage.setAttribute('src', `../img/${beastData.title}.jpg`);
+  // debugger;
   parentElement.appendChild(theCard);
 
 
 }
 
 {/* <div class="row cards">
-        <div class="card col beast">
+        <div class="card beast">
           <div class="image">
             <img class="img">
           </div>

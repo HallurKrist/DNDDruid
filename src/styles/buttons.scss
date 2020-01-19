@@ -1,0 +1,67 @@
+
+
+
+
+.buttons {
+ 	display: flex;
+  margin: auto;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	 
+	.button {
+	 	&_group {
+			display: flex;
+			width: 100%;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		 
+	  }
+	 
+	  &_button {
+			margin-left: 10px;
+			border: 0 solid #000;
+			border-radius: 3px;
+			font-size: 12px;
+			background-color: #a9a9a9;
+			padding: 3px;
+			font-weight: bold;
+	 	}
+
+	 	&_title {
+			 margin-left: 10px;
+			 font-weight: bold;
+			 color: #ffffff;
+	 	}
+	}
+}
+
+
+
+		// <div class="row buttons">
+    //   <div class="button_group CR_group">
+		//     <button class="button_button">0-CR</button>
+		// 		 <button class="">1/8-CR</button>
+  	// 		 <button class="">1/4-CR</button>
+  	// 		 <button class="">1/2-CR</button>
+    //     <button class="">1-CR</button>
+    //     <button class="">2-CR</button>
+    //     <button class="">3-CR</button>
+    //     <button class="">4-CR</button>
+    //     <button class="">5-CR</button>
+    //     <button class="">6-CR</button>
+    //   </div>
+    //   <div class="button_group size_group">
+    //     <button class="">Tiny</button>
+    //     <button class="">Small</button>
+    //     <button class="">Medium</button>
+    //     <button class="">Large</button>
+    //     <button class="">Huge</button>
+    //   </div>
+    //   <div class="button_group speed_group">
+    //     <button class="">Walk/Running</button>
+    //     <button class="">Swim</button>
+    //     <button class="">Fly</button>
+    //   </div>
+    // </div>
