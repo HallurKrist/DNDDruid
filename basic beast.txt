@@ -1,0 +1,19 @@
+  {
+    "CR": "",
+    "color": "black",
+    "title": "",
+    "icon": "",
+    "contents": {
+      "size" : "",
+      "Armor class" : "",
+      "Hit points" : "",
+      "Speed" : "",
+      "dndstats" : "",
+      "Skills" : "",
+      "Senses" : "",
+
+      "Actions": {
+
+      }
+    }
+  }
