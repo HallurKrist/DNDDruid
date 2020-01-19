@@ -4,7 +4,6 @@
     "color": "black",
     "title": "Ape",
     "icon": "monkey",
-    "image" : "../img/ape.jpg",
     "contents": 
       {
       "size": "Medium beast",

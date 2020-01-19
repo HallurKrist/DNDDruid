@@ -31,7 +31,8 @@ function makeBeastCard(beastData, parentElement) {
 
   theTitle.appendChild(document.createTextNode(`${beastData.title}`));
   theImage.setAttribute('src', `${beastData.image}`);
-  debugger;
+
+  parentElement.appendChild(theCard);
 
 
 }
