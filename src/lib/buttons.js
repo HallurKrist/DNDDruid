@@ -2,6 +2,7 @@ import {el} from './helpers';
 
 export function makeButtons(page) {
 	const allButtons = el('div', 'buttons');
+	allButtons.classList.add('row');
 
 	const groupCR = el('div', 'button_group');
 	groupCR.classList.add('CR_group');

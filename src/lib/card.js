@@ -29,7 +29,7 @@ function makeBeastCard(beastData, parentElement) {
   theCard.appendChild(textDiv);
 
   theTitle.appendChild(document.createTextNode(`${beastData.title}`));
-  theImage.setAttribute('src', `../img/${beastData.title}.jpg`);
+  theImage.setAttribute('src', `img/${beastData.title}.jpg`);
   // debugger;
   parentElement.appendChild(theCard);
 
