@@ -18,7 +18,6 @@
         "Rock": " Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage."
       }
     }
-
   },
   {
     "CR": "1/4",
@@ -1454,7 +1453,7 @@
     "contents": {
       "size" : "Huge Beast",
       "Armor class" : "14",
-      "Hit points" : "42 (5d12+10",
+      "Hit points" : "42",
       "Speed" : "60 ft.",
       "dndstats" : "19|16|14|7|14|10",
       "Skills" : "Persepction +4",
