@@ -1,0 +1,75 @@
+
+.beastDetails {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+	margin: 40px;
+}
+
+
+
+.top {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 1000px;
+	background-color: #a9a9a9;
+	border-radius: 20px;
+	padding: 20px;
+
+
+	&_top {
+		display: flex;
+		width: 100%;
+		
+		&_imageBox {
+			width: 40%;
+			margin-right: 20px;
+		}
+
+		&_image {
+			width: 100%;
+			height: calc(0.4 * 100vw);
+			border-radius: 20px;
+		}
+
+		&_right {
+			width: 60%;
+		}
+
+		&_text {
+			color: #ffffff;
+			font-size: 5rem;
+		}
+	}
+
+	&_bot {
+		&_text {
+			color: #ffffff;
+		}
+	}
+	
+}
+
+.skills {
+	background-color: #a9a9a9;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.actions {
+	background-color: #a9a9a9;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.action {
+	&_name {
+		color: #ffffff;
+	}
+
+	&_effect {
+		color: #ffffff;
+	}
+}
