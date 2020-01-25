@@ -124,3 +124,20 @@
 		font-size: 32px;
 	}
 }
+
+.details {
+	&_back {
+		font-size: 32px;
+		text-decoration: none;
+		color: #ffffff;
+		height: 100%;
+		width: 100%;
+	}
+
+	&_backBox {
+		display: flex;
+		justify-content: flex-end;
+		border-radius: 20px;
+		padding: 20px;
+	}
+}

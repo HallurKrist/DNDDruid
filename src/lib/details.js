@@ -35,6 +35,7 @@ export function makeDetails(parentElem) {
   makeTop(details);
   makeMid(details);
   makeBot(details);
+  makeBack(details);
 
   parentElem.appendChild(details);
 }
@@ -130,6 +131,18 @@ function makeBot(parent) {
   parent.appendChild(actions);
 }
 
+function makeBack(parent) {
+  const backBox = el('div', 'details_backBox');
+  const back = el('a', 'details_back');
+  back.setAttribute('href', 'index.html')
+
+  back.appendChild(document.createTextNode('Back'));
+
+  backBox.appendChild(back);
+
+  parent.appendChild(backBox);
+}
+
 function makeTopTop(parent) {
   const infoTop = el('div', 'top_top');
 
@@ -207,7 +220,7 @@ function makeTopTopRight(parent) {
 
   const data = JSON.parse(window.localStorage.getItem('DetailsPageBeast'));
 
-  const name = el('div', 'top_top_text');
+  const name = el('h3', 'top_top_text');
   const cr   = el('div', 'top_top_text');
   const size = el('div', 'top_top_text');
 
