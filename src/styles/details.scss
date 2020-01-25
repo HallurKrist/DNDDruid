@@ -55,15 +55,15 @@
 		flex-wrap: wrap;
 
 		&_left {
-			width: 33%;
+			width: 50%;
 		}
 
 		&_mid {
-			width: 33%;
+			width: 25%;
 		}
 
 		&_right {
-			width: 33%;
+			width: 25%;
 		}
 
 		&_text {
@@ -87,11 +87,17 @@
 }
 
 .action {
+	&_title {
+		color: #ffffff;
+	}
+
 	&_name {
 		color: #ffffff;
+		margin-left: 40px;
 	}
 
 	&_effect {
 		color: #ffffff;
+		margin-left: 80px;
 	}
 }

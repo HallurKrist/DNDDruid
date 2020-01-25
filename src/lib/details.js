@@ -67,6 +67,11 @@ function makeBot(parent) {
   var actionKeys = Object.keys(data.contents.Actions);
   var actionValues = Object.values(data.contents.Actions);
 
+  const title = el('h1', 'action_title');
+  title.appendChild(document.createTextNode('Actions'));
+
+  actions.appendChild(title);
+
 
   var i;
   for (i = 0; i < actionKeys.length; i++) {
@@ -114,19 +119,19 @@ function makeTopBot(parent) {
   const wis   = el('div', 'top_bot_text');
   const cha   = el('div', 'top_bot_text');
 
-  ac.appendChild(document.createTextNode(`${data['Armor class']}`));
-  hp.appendChild(document.createTextNode(`${data['Hit points']}`));
-  speed.appendChild(document.createTextNode(`${data['Speed']}`));
+  ac.appendChild(document.createTextNode(`AC: ${data['Armor class']}`));
+  hp.appendChild(document.createTextNode(`HP: ${data['Hit points']}`));
+  speed.appendChild(document.createTextNode(`SP: ${data['Speed']}`));
 
   var dndstat = data.dndstats;
   const splitDNDstat = dndstat.split("|");
 
-  str.appendChild(document.createTextNode(`${splitDNDstat[0]}`));
-  dex.appendChild(document.createTextNode(`${splitDNDstat[1]}`));
-  con.appendChild(document.createTextNode(`${splitDNDstat[2]}`));
-  int.appendChild(document.createTextNode(`${splitDNDstat[3]}`));
-  wis.appendChild(document.createTextNode(`${splitDNDstat[4]}`));
-  cha.appendChild(document.createTextNode(`${splitDNDstat[5]}`));
+  str.appendChild(document.createTextNode(`STR: ${splitDNDstat[0]}`));
+  dex.appendChild(document.createTextNode(`DEX: ${splitDNDstat[1]}`));
+  con.appendChild(document.createTextNode(`CON: ${splitDNDstat[2]}`));
+  int.appendChild(document.createTextNode(`INT: ${splitDNDstat[3]}`));
+  wis.appendChild(document.createTextNode(`WIS: ${splitDNDstat[4]}`));
+  cha.appendChild(document.createTextNode(`CHA: ${splitDNDstat[5]}`));
 
   left.appendChild(ac);
   left.appendChild(hp);
