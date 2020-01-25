@@ -22,31 +22,53 @@
 	&_top {
 		display: flex;
 		width: 100%;
+		margin-bottom: 20px;
 		
 		&_imageBox {
-			width: 40%;
+			width:  calc(0.38 * 100vw);
+			height: calc(0.30 * 100vw);
 			margin-right: 20px;
 		}
 
 		&_image {
 			width: 100%;
-			height: calc(0.4 * 100vw);
+			height: 100%;
 			border-radius: 20px;
 		}
 
 		&_right {
-			width: 60%;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+
 		}
 
 		&_text {
 			color: #ffffff;
-			font-size: 5rem;
+			font-size: 3rem;
+			margin-top: 20px;
 		}
 	}
 
 	&_bot {
+		display: flex;
+		flex-wrap: wrap;
+
+		&_left {
+			width: 33%;
+		}
+
+		&_mid {
+			width: 33%;
+		}
+
+		&_right {
+			width: 33%;
+		}
+
 		&_text {
 			color: #ffffff;
+			font-size: 2rem;
 		}
 	}
 	

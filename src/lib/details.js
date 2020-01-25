@@ -167,9 +167,9 @@ function makeTopTopRight(parent) {
   const cr   = el('div', 'top_top_text');
   const size = el('div', 'top_top_text');
 
-  name.appendChild(document.createTextNode(`${data.title}`));
-  cr.appendChild(document.createTextNode(`${data.CR}`));
-  size.appendChild(document.createTextNode(`${data.contents.size}`));
+  name.appendChild(document.createTextNode(`Beast: ${data.title}`));
+  cr.appendChild(document.createTextNode(`CR: ${data.CR}`));
+  size.appendChild(document.createTextNode(`Size: ${data.contents.size}`));
 
   infoRight.appendChild(name);
   infoRight.appendChild(cr);
