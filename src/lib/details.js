@@ -51,8 +51,38 @@ function makeTop(parent) {
 function makeMid(parent) {
   const skills = el('div', 'skills');
 
-  //make skills
+  const data = JSON.parse(window.localStorage.getItem('DetailsPageBeast'));
 
+  const skillKeys = Object.keys(data.contents.Skills);
+  const skillValues = Object.values(data.contents.Skills);
+
+  const title = el('h1', 'skill_title');
+  title.appendChild(document.createTextNode('Skills'));
+  skills.appendChild(title);
+
+  var i;
+  for (i = 0; i < skillKeys.length; i++) {
+    var skill =  el('div',         'skill');
+    var name =    el('h2' ,    'skill_name');
+    var effect =  el('p'  ,  'skill_effect');
+
+    skill.appendChild(name);
+    skill.appendChild(effect);
+
+    name.appendChild(document.createTextNode(`${skillKeys[i]}`));
+    effect.appendChild(document.createTextNode(`${skillValues[i]}`));
+
+    skills.appendChild(skill);
+  }
+
+  if (skillKeys.length === 0) {
+    var skill =  el('div', 'skill');
+    var effect =  el('p', 'skill_effect');
+
+    effect.appendChild(document.createTextNode('No skills'));
+    skill.appendChild(effect);
+    skills.appendChild(skill);
+  }
 
   parent.appendChild(skills);
 }
@@ -85,6 +115,15 @@ function makeBot(parent) {
     name.appendChild(document.createTextNode(`${actionKeys[i]}`));
     effect.appendChild(document.createTextNode(`${actionValues[i]}`));
 
+    actions.appendChild(action);
+  }
+
+  if (actionKeys.length === 0) {
+    var action =  el('div', 'action');
+    var effect =  el('p', 'action_effect');
+
+    effect.appendChild(document.createTextNode('No actions'));
+    action.appendChild(effect);
     actions.appendChild(action);
   }
 

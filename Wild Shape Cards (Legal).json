@@ -250,7 +250,7 @@
       "Hit points" : "13 (2d10+2)",
       "Speed" : "30 ft., swim 30 ft.",
       "dndstats" : "15|14|12|1|10|3",
-      "Senses" : {
+      "Skills" : {
         "Bonuses": "blindsight 10 ft."
       },
       "Actions": {
@@ -461,9 +461,12 @@
       "Skills" : {
         "Bonuses": "Perception +1, Stealth +3",
         "Senses" : "darkvision 30 ft.",
-        "Amphibious" : "The frog can breathe air and water."
+        "Amphibious" : "The frog can breathe air and water.",
+        "Standing Leap" : "The frog’s long jump is up to 10 ft. and its high jump is up to 5 ft., with or without a running start."
       },
-      "Standing Leap" : "The frog’s long jump is up to 10 ft. and its high jump is up to 5 ft., with or without a running start."
+      "Actions": {
+        
+      }
     }
   },
   {
@@ -1375,6 +1378,9 @@
       "dndstats" : "1|12|8|1|10|2",
       "Skills": {
         "Water Breathing" : "The sea horse can breathe only underwater."
+      },
+      "Actions": {
+
       }
     }
     
