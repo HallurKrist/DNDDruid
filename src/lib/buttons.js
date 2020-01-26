@@ -15,11 +15,97 @@ export function makeButtons(page) {
 	makeSizeGroup(groupSize);
 	makeSpeedGroup(groupSpeed);
 
+	var i;
+	
+	const crChildren = groupCR.children;
+	const sizeChildren = groupSize.children;
+	const speedChildren = groupSpeed.children;
+
+
+	for (var child of crChildren) {
+		child.addEventListener('click', theCrEvent);
+	}
+	for (var child of sizeChildren) {
+		child.addEventListener('click', theSizeEvent);
+	}
+	for (var child of speedChildren) {
+		child.addEventListener('click', theSpeedEvent);
+	}
+
 	allButtons.appendChild(groupCR);
 	allButtons.appendChild(groupSize);
 	allButtons.appendChild(groupSpeed);
 
 	page.appendChild(allButtons);
+}
+
+function theCrEvent(event) {
+	const whatButton = event.srcElement.value;
+	const active = event.srcElement.classList.toggle('active');
+	const data = JSON.parse(window.localStorage.getItem('filter'));
+	if (!data) {
+		var newData = `{"CR": ["${whatButton}"]}`;
+		window.localStorage.setItem('filter', newData);
+	} else {
+		if (!data.CR) {
+			data.CR = [whatButton];
+		} else {
+			var index = data.CR.findIndex((el) => el === whatButton);
+			if (index === -1){
+				data.CR.push(whatButton);
+			} else {
+				data.CR.splice(index, 1);
+			}
+		}
+		window.localStorage.removeItem('filter');
+		window.localStorage.setItem('filter', JSON.stringify(data));
+	}
+}
+
+function theSizeEvent(event) {
+	const whatButton = event.srcElement.value;
+	event.srcElement.classList.toggle('active');
+	const data = JSON.parse(window.localStorage.getItem('filter'));
+	if (!data) {
+		var newData = `{"Size": ["${whatButton}"]}`;
+		window.localStorage.setItem('filter', newData);
+	} else {
+		if (!data.Size) {
+			data.Size = [whatButton];
+		} else {
+			var index = data.Size.findIndex((el) => el === whatButton);
+			if (index === -1){
+				data.Size.push(whatButton);
+			} else {
+				data.Size.splice(index, 1);
+			}
+		}
+		window.localStorage.removeItem('filter');
+		window.localStorage.setItem('filter', JSON.stringify(data));
+	}
+}
+
+function theSpeedEvent(event) {
+	const whatButton = event.srcElement.value;
+	const active = event.srcElement.classList.toggle('active');
+	const data = JSON.parse(window.localStorage.getItem('filter'));
+	if (!data) {
+		var newData = `{"Speed": ["${whatButton}"]}`;
+		window.localStorage.setItem('filter', newData);
+	} else {
+		if (!data.Speed) {
+			data.Speed = [whatButton];
+		} else {
+			var index = data.Speed.findIndex((el) => el === whatButton);
+			if (index === -1){
+				data.Speed.push(whatButton);
+			} else {
+				data.Speed.splice(index, 1);
+			}
+		}
+		window.localStorage.removeItem('filter');
+		window.localStorage.setItem('filter', JSON.stringify(data));
+	}
 }
 
 function makeCRGroup(parent) {
@@ -50,6 +136,16 @@ function makeCRGroup(parent) {
 	btn9.appendChild(document.createTextNode('5-CR'));
 	btn10.appendChild(document.createTextNode('6-CR'));
 
+	btn1.setAttribute('value', '0-CR');
+	btn2.setAttribute('value', '1/8-CR');
+	btn3.setAttribute('value', '1/4-CR');
+	btn4.setAttribute('value', '1/2-CR');
+	btn5.setAttribute('value', '1-CR');
+	btn6.setAttribute('value', '2-CR');
+	btn7.setAttribute('value', '3-CR');
+	btn8.setAttribute('value', '4-CR');
+	btn9.setAttribute('value', '5-CR');
+	btn10.setAttribute('value', '6-CR');
 
 	parent.appendChild(title);
 
@@ -83,6 +179,12 @@ function makeSizeGroup(parent) {
 	btn4.appendChild(document.createTextNode('Large'));
 	btn5.appendChild(document.createTextNode('Huge'));
 
+	btn1.setAttribute('value', 'Tiny');
+	btn2.setAttribute('value', 'Small');
+	btn3.setAttribute('value', 'Medium');
+	btn4.setAttribute('value', 'Large');
+	btn5.setAttribute('value', 'Huge');
+
 
 	parent.appendChild(title);
 
@@ -106,6 +208,10 @@ function makeSpeedGroup(parent) {
 	btn1.appendChild(document.createTextNode('Walk/Running'));
 	btn2.appendChild(document.createTextNode('Swim'));
 	btn3.appendChild(document.createTextNode('Fly'));
+
+	btn1.setAttribute('value', 'Walk');
+	btn2.setAttribute('value', 'Swim');
+	btn3.setAttribute('value', 'Fly');
 
 
 	parent.appendChild(title);
