@@ -1,4 +1,5 @@
 import {el} from './helpers';
+import {filterCards} from './filter'
 
 export function makeButtons(page) {
 	const allButtons = el('div', 'buttons');
@@ -60,6 +61,7 @@ function theCrEvent(event) {
 		window.localStorage.removeItem('filter');
 		window.localStorage.setItem('filter', JSON.stringify(data));
 	}
+	filterCards();
 }
 
 function theSizeEvent(event) {
@@ -83,6 +85,7 @@ function theSizeEvent(event) {
 		window.localStorage.removeItem('filter');
 		window.localStorage.setItem('filter', JSON.stringify(data));
 	}
+	filterCards();
 }
 
 function theSpeedEvent(event) {
@@ -106,6 +109,7 @@ function theSpeedEvent(event) {
 		window.localStorage.removeItem('filter');
 		window.localStorage.setItem('filter', JSON.stringify(data));
 	}
+	filterCards();
 }
 
 function makeCRGroup(parent) {

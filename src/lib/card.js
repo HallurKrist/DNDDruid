@@ -1,8 +1,14 @@
 import {el} from './helpers';
 import {loadDetails} from './details';
 
-export function makeCards(page) {
-  const myData = JSON.parse(window.localStorage.getItem('DNDDruidBeasts'));
+export function makeCards(page, incData) {
+
+  var myData;
+  if (incData) {
+    myData = incData;
+  } else {
+    myData = JSON.parse(window.localStorage.getItem('DNDDruidBeasts'));
+  }
 
   const cards = el('div', 'row')
   cards.classList.add('cards')
