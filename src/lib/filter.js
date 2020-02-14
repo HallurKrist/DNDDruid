@@ -9,15 +9,12 @@ var dataDoneFiltering = [];
 export function filterCards() {
   filterData = JSON.parse(window.localStorage.getItem('filter'));
 
-  console.log('to be filtered CR: ' + filterData.CR);
-  console.log('to be filtered Size: ' + filterData.Size);
-  console.log('to be filtered Speed: ' + filterData.Speed);
-
   toBeDeleted = [];
   dataDoneFiltering = [];
 
   filterCR();
   filterSize();
+  filterSpeed();
 
   compressDeleted();
   deleteFiltered();
@@ -26,8 +23,8 @@ export function filterCards() {
   empty(cards);
   const thePage = cards.parentElement;
   thePage.removeChild(cards);
-
-  if (dataDoneFiltering.length === 0) {
+  debugger;
+  if ((dataDoneFiltering.length === 0) && (filterData.CR.length !== 0) && (filterData.Size.length !== 0) && (filterData.Speed.length !== 0)) {
     makeCards(thePage, data);
   } else {
     makeCards(thePage, dataDoneFiltering);
@@ -41,11 +38,8 @@ function filterCR() {
       var thedata = data[j];
       if (!filterData.CR.includes(`${thedata.CR}-CR`)) {
         toBeDeleted.push(j);
-        // debugger;
       }
     }
-    console.log('after cr filter ');
-    console.log(toBeDeleted);
   }
 }
 
@@ -58,11 +52,48 @@ function filterSize() {
 
       if (!filterData.Size.includes(`${sizeOfBeast[0]}`)) {
         toBeDeleted.push(j);
-        // debugger;
       }
     }
-    console.log('after size filter ');
-    console.log(toBeDeleted);
+  }
+}
+
+function filterSpeed() {
+  if (filterData.Speed && filterData.Speed.length !== 0) {
+    var j;
+    for (j = 0; j < data.length; j++) {
+      var beastSpeed = data[j].contents.Speed;
+      var beastSpeedArray = beastSpeed.split(", ");
+
+      var thisBeastsSpeed = [];
+      var i;
+      for (i = 0; i < beastSpeedArray.length; i++) {
+        if (beastSpeedArray[i].includes("swim")) {
+          thisBeastsSpeed.push("swim");
+        } else if (beastSpeedArray[i].includes("fly")) {
+          thisBeastsSpeed.push("fly");
+        } else if (beastSpeedArray[i].includes("climb")) {
+          thisBeastsSpeed.push("climb");
+        } else if (beastSpeedArray[i].includes("burrow")) {
+          thisBeastsSpeed.push("burrow");
+        }
+      }
+    
+        debugger;
+      if (beastSpeedArray.length > thisBeastsSpeed.length) {
+        thisBeastsSpeed.push("walk");
+      } 
+
+      var del = true;
+      for (i = 0; i < thisBeastsSpeed.length; i++){
+        if (filterData.Speed.includes(`${thisBeastsSpeed[i]}`)) {
+          del = false;
+        }
+      }
+
+      if (del) {
+        toBeDeleted.push(j);
+      }
+    }
   }
 }
 
@@ -70,21 +101,14 @@ function filterSize() {
 function compressDeleted() {
   const compressed = [...new Set(toBeDeleted)];
   toBeDeleted = compressed;
-
-
-  console.log('after compressing filter ');
-  console.log(toBeDeleted);
 }
 
 function deleteFiltered() {
   var i;
   for(i = 0; i < data.length; i++) {
     if (toBeDeleted.includes(i)){
-      // debugger;
     } else {
       dataDoneFiltering.push(data[i]);
     }
   }
-  console.log('after deleting filtering');
-  console.log(dataDoneFiltering);
 }

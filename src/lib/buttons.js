@@ -205,17 +205,24 @@ function makeSpeedGroup(parent) {
 	const btn1 = el('button', 'button_button');
 	const btn2 = el('button', 'button_button');
 	const btn3 = el('button', 'button_button');
+	const btn4 = el('button', 'button_button');
+	const btn5 = el('button', 'button_button');
 
 
-	title.appendChild(document.createTextNode('Type'));
+	title.appendChild(document.createTextNode('Speed'));
 
 	btn1.appendChild(document.createTextNode('Walk/Running'));
 	btn2.appendChild(document.createTextNode('Swim'));
 	btn3.appendChild(document.createTextNode('Fly'));
+	btn4.appendChild(document.createTextNode('Climb'));
+	btn5.appendChild(document.createTextNode('Burrow'));
 
-	btn1.setAttribute('value', 'Walk');
-	btn2.setAttribute('value', 'Swim');
-	btn3.setAttribute('value', 'Fly');
+
+	btn1.setAttribute('value', 'walk');
+	btn2.setAttribute('value', 'swim');
+	btn3.setAttribute('value', 'fly');
+	btn4.setAttribute('value', 'climb');
+	btn5.setAttribute('value', 'burrow');
 
 
 	parent.appendChild(title);
@@ -223,6 +230,8 @@ function makeSpeedGroup(parent) {
 	parent.appendChild(btn1);
 	parent.appendChild(btn2);
 	parent.appendChild(btn3);
+	parent.appendChild(btn4);
+	parent.appendChild(btn5);
 }
 
 

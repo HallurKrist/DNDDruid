@@ -3,6 +3,7 @@
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+	max-width: 1000px;
 	justify-content: center;
 	margin: 40px;
 }
@@ -13,7 +14,6 @@
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	max-width: 1000px;
 	background-color: #a9a9a9;
 	border-radius: 20px;
 	padding: 20px;
@@ -27,12 +27,16 @@
 		&_imageBox {
 			width:  calc(0.38 * 100vw);
 			height: calc(0.30 * 100vw);
+			max-width: 570px;
+			max-height: 450px;
 			margin-right: 20px;
 		}
 
 		&_image {
 			width: 100%;
 			height: 100%;
+
+			
 			border-radius: 20px;
 		}
 
@@ -45,7 +49,7 @@
 		}
 
 		&_text {
-			color: #ffffff;
+			// color: #ffffff;
 			font-size: 48px;
 			margin-top: 20px;
 		}
@@ -68,7 +72,7 @@
 		}
 
 		&_text {
-			color: #ffffff;
+			// color: #ffffff;
 			font-size: 32px;
 		}
 	}
@@ -83,18 +87,18 @@
 
 .skill {
 	&_title {
-		color: #ffffff;
+		// color: #ffffff;
 		font-size: 48px;
 	}
 
 	&_name {
-		color: #ffffff;
+		// color: #ffffff;
 		margin-left: 40px;
 		font-size: 38px;
 	}
 
 	&_effect {
-		color: #ffffff;
+		// color: #ffffff;
 		margin-left: 80px;
 		font-size: 32px;
 	}
@@ -108,18 +112,18 @@
 
 .action {
 	&_title {
-		color: #ffffff;
+		// color: #ffffff;
 		font-size: 48px;
 	}
 
 	&_name {
-		color: #ffffff;
+		// color: #ffffff;
 		margin-left: 40px;
 		font-size: 38px;
 	}
 
 	&_effect {
-		color: #ffffff;
+		// color: #ffffff;
 		margin-left: 80px;
 		font-size: 32px;
 	}

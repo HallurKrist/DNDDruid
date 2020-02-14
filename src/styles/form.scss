@@ -1,0 +1,31 @@
+
+
+
+.form {
+  width: 100%;
+  margin-top: 20px;
+  &_circle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    &_text {
+      color: #ffffff;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+    &_select {
+      margin-left: 20px;
+    }
+  }
+  &_level {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    &_text {
+      color: #ffffff;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+    &_select {
+      margin-left: 20px;
+    }
+  }
+}

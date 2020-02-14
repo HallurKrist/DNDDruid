@@ -1,0 +1,374 @@
+[
+  {
+    "Circle": "Moon",
+    "levels": 
+      {
+        "lvl1":
+          {
+            "filterData":
+              {
+                "Speed": "none",
+                "Size": "none",
+                "CR": "none"
+              }
+          },
+        "lvl2":
+          {
+            "filterData":
+              {
+                "Speed": ["walk","climb","burrow"],
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1"]
+              }
+          },
+        "lvl3":
+          {
+            "filterData":
+              {
+                "Speed": ["walk","climb","burrow"],
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1"]
+              }
+          },
+        "lvl4":
+          {
+            "filterData":
+              {
+                "Speed": ["walk","climb","burrow","swim"],
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1"]
+              }
+          },
+        "lvl5":
+          {
+            "filterData":
+              {
+                "Speed": ["walk","climb","burrow","swim"],
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1"]
+              }
+          },
+        "lvl6":
+          {
+            "filterData":
+              {
+                "Speed": ["walk","climb","burrow","swim"],
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1","2"]
+              }
+          },
+        "lvl7":
+          {
+            "filterData":
+              {
+                "Speed": ["walk","climb","burrow","swim"],
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1","2"]
+              }
+          },
+        "lvl8":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1","2"]
+              }
+          },
+        "lvl9":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1","2","3"]
+              }
+          },
+        "lvl10":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1","2","3"]
+              }
+          },
+        "lvl11":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1","2","3"]
+              }
+          },
+        "lvl12":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1","2","3","4"]
+              }
+          },
+        "lvl13":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1","2","3","4"]
+              }
+          },
+        "lvl14":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1","2","3","4"]
+              }
+          },
+        "lvl15":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1","2","3","4","5"]
+              }
+          },
+        "lvl16":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1","2","3","4","5"]
+              }
+          },
+        "lvl17":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1","2","3","4","5"]
+              }
+          },
+        "lvl18":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": "all"
+              }
+          },
+        "lvl19":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": "all"
+              }
+          },
+        "lvl20":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": "all"
+              }
+          }
+      }
+  },
+  {
+    "Circle": "Other",
+    "levels": 
+      {
+        "lvl1":
+          {
+            "filterData":
+              {
+                "Speed": "none",
+                "Size": "none",
+                "CR": "none"
+              }
+          },
+        "lvl2":
+          {
+            "filterData":
+              {
+                "Speed": ["walk","climb","burrow"],
+                "Size": "all",
+                "CR": ["0","1/8","1/4"]
+              }
+          },
+        "lvl3":
+          {
+            "filterData":
+              {
+                "Speed": ["walk","climb","burrow"],
+                "Size": "all",
+                "CR": ["0","1/8","1/4"]
+              }
+          },
+        "lvl4":
+          {
+            "filterData":
+              {
+                "Speed": ["walk","climb","burrow","swim"],
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2"]
+              }
+          },
+        "lvl5":
+          {
+            "filterData":
+              {
+                "Speed": ["walk","climb","burrow","swim"],
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2"]
+              }
+          },
+        "lvl6":
+          {
+            "filterData":
+              {
+                "Speed": ["walk","climb","burrow","swim"],
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2"]
+              }
+          },
+        "lvl7":
+          {
+            "filterData":
+              {
+                "Speed": ["walk","climb","burrow","swim"],
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2"]
+              }
+          },
+        "lvl8":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1"]
+              }
+          },
+        "lvl9":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1"]
+              }
+          },
+        "lvl10":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1"]
+              }
+          },
+        "lvl11":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1"]
+              }
+          },
+        "lvl12":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1"]
+              }
+          },
+        "lvl13":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1"]
+              }
+          },
+        "lvl14":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1"]
+              }
+          },
+        "lvl15":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1"]
+              }
+          },
+        "lvl16":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1"]
+              }
+          },
+        "lvl17":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1"]
+              }
+          },
+        "lvl18":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1"]
+              }
+          },
+        "lvl19":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1"]
+              }
+          },
+        "lvl20":
+          {
+            "filterData":
+              {
+                "Speed": "all",
+                "Size": "all",
+                "CR": ["0","1/8","1/4","1/2","1"]
+              }
+          }
+      }
+  }
+]
