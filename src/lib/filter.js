@@ -23,9 +23,11 @@ export function filterCards() {
   empty(cards);
   const thePage = cards.parentElement;
   thePage.removeChild(cards);
-  debugger;
-  if ((dataDoneFiltering.length === 0) && (filterData.CR.length !== 0) && (filterData.Size.length !== 0) && (filterData.Speed.length !== 0)) {
-    makeCards(thePage, data);
+
+  if (dataDoneFiltering.length === 0) {
+    if ((filterData.CR.length !== 0) || (filterData.Size.length !== 0) || (filterData.Speed.length !== 0)) {
+      makeCards(thePage, dataDoneFiltering);
+    }
   } else {
     makeCards(thePage, dataDoneFiltering);
   }
@@ -78,7 +80,6 @@ function filterSpeed() {
         }
       }
     
-        debugger;
       if (beastSpeedArray.length > thisBeastsSpeed.length) {
         thisBeastsSpeed.push("walk");
       } 
@@ -89,6 +90,19 @@ function filterSpeed() {
           del = false;
         }
       }
+
+      if (!filterData.Speed.includes("swim")) {
+        if (thisBeastsSpeed.includes("swim")) {
+          del = true;
+        } 
+      } 
+      if (!filterData.Speed.includes("fly")) {
+        if (thisBeastsSpeed.includes("fly")) {
+          del = true;
+        } 
+      } 
+
+      
 
       if (del) {
         toBeDeleted.push(j);

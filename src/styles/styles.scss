@@ -47,10 +47,12 @@ main { /* stylelint-disable-line */
 
 .row {
   max-width: 1200px;
+  width: 100%;
 }
 
-
+@import "details.scss";
 @import "cards.scss";
 @import "buttons.scss";
-@import "details.scss";
+
 @import "form.scss";
+@import "config.scss";

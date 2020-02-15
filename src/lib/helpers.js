@@ -1,7 +1,9 @@
 export function empty(element) {
- while (element.firstChild) {
-   element.removeChild(element.firstChild);
- }
+  if (element) {
+    while (element.firstChild) {
+      element.removeChild(element.firstChild);
+    }
+  }
 }
 
 export function el(elType, elClass) {

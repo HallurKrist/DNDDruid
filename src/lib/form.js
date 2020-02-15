@@ -7,6 +7,7 @@ import { el } from "./helpers";
 
 export function makeForm(page) {
   const theForm = el('div', 'form');
+  theForm.classList.add('row');
 
   const circleForm = el('div', 'form_circle');
   const levelForm = el('div', 'form_level');
@@ -41,7 +42,17 @@ export function makeForm(page) {
 
   page.appendChild(theForm);
 
-
+  fetch('https://raw.githubusercontent.com/HallurKrist/DNDDruid/master/druidCircle.json')
+    .then((result) => {
+      if (!result.ok) {
+        throw new Error('Non 200 status');
+      }
+      return result.json();
+    })
+    .then((data) => {
+      window.localStorage.setItem('DNDDruidCircleLevel', JSON.stringify(data));
+    })
+    .catch((error) => console.error(error));
 }
 
 function circleChoices(circleSelect) {
@@ -86,11 +97,70 @@ function levelChoices(levelSelect) {
 
 
 function addCircleEvent(event) {
-  var circle = event.srcElement.value;
+  const circle = event.srcElement.value;
+  const circleLevelData =  JSON.parse(window.localStorage.getItem('DNDDruidCircleLevel'));
+  var theFilter = JSON.parse(window.localStorage.getItem('filter'));
+  if (circle === "none") {
+    if (!theFilter) {
+      window.localStorage.setItem('filter', `{"Circle": "${circle}"}`);
+    } else {
+      theFilter.Circle = `${circle}`;
+      window.localStorage.setItem('filter', JSON.stringify(theFilter));
+    }
+  } else if (circle === "moon") {
+    if (!theFilter) {
+      window.localStorage.setItem('filter', `{"Circle": "${circle}"}`);
+    } else {
+      theFilter.Circle = `${circle}`;
+      window.localStorage.setItem('filter', JSON.stringify(theFilter));
+    }
+
+  } else if (circle === "other") {
+    if (!theFilter) {
+      window.localStorage.setItem('filter', `{"Circle": "${circle}"}`);
+    } else {
+      theFilter.Circle = `${circle}`;
+      window.localStorage.setItem('filter', JSON.stringify(theFilter));
+    }
+  } else {
+    console.error('couldn\'t what circle was chosen try reloading');
+  }
   // debugger;
     
 }
 
 function addLevelEvent(event) {
-  
+  const level = event.srcElement.value;
+  var theFilter = JSON.parse(window.localStorage.getItem('filter'));
+
+  // debugger;
+  var i;
+  for(i = 0; i < 21; i++) {
+    if (parseInt(level) === i) {
+      if (!theFilter) {
+        window.localStorage.setItem('filter', `{"Level": "${i}"}`);
+      } else {
+        theFilter.Level = `${i}`;
+        window.localStorage.setItem('filter', JSON.stringify(theFilter));
+      }
+    }
+  }
 }
+
+
+	// if (!data) {
+	// 	var newData = `{"Size": ["${whatButton}"]}`;
+	// 	window.localStorage.setItem('filter', newData);
+	// } else {
+	// 	if (!data.Size) {
+	// 		data.Size = [whatButton];
+	// 	} else {
+	// 		var index = data.Size.findIndex((el) => el === whatButton);
+	// 		if (index === -1){
+	// 			data.Size.push(whatButton);
+	// 		} else {
+	// 			data.Size.splice(index, 1);
+	// 		}
+	// 	}
+	// 	window.localStorage.removeItem('filter');
+	// 	window.localStorage.setItem('filter', JSON.stringify(data));
